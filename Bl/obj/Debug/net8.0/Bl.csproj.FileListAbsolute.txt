@@ -1,0 +1,15 @@
+H:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.deps.json
+H:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.dll
+H:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.pdb
+H:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Dal.dll
+H:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Dal.pdb
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.AssemblyReference.cache
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.AssemblyInfoInputs.cache
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.AssemblyInfo.cs
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.CoreCompileInputs.cache
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.Up2Date
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.dll
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\refint\Bl.dll
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.pdb
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\ref\Bl.dll

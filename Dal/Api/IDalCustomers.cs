@@ -1,4 +1,5 @@
 ﻿using Dal.models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,9 @@ namespace Dal.Api
     public interface IDalCustomers
     {
 		public bool AddCustomer(Customer customer);
-
+		public bool DeleteCustomer(Customer customer);
+		public List<Customer> GetAllCustomers();
+	
 	}
 }
+ 

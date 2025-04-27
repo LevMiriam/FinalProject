@@ -1,6 +1,4 @@
 ﻿using Dal.Api;
-using Dal.
-
 using System;
 using System.Threading.Tasks;
 using System;
@@ -26,5 +24,17 @@ namespace Dal.Services
             int result= _context.SaveChanges();
             return result > 0;
         }
+        public bool DeleteCustomer(Customer customer)
+        {
+            _context.Customers.Remove(customer);
+			int result = _context.SaveChanges();
+			return result > 0;
+		}
+
+        public List<Customer> GetAllCustomers()
+        {
+          return _context.Customers.ToList();
+        }
+
     }
 }

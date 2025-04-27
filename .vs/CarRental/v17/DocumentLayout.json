@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\server\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\dal\\services\\dalcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\services\\dalcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\bl\\api\\iblcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\api\\iblcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\bl\\services\\blcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\services\\blcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\dal\\api\\idalcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idalcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\bl\\services\\blcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\services\\blcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\bl\\services\\blorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,18 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\bl\\api\\iblorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\api\\iblorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\bl\\api\\iblcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\api\\iblcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\dal\\api\\idalcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idalcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\dal\\services\\dalcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\services\\dalcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|d:\\documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\carrental\\dal\\idalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,37 +106,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BlCustomersService.cs",
-              "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\Services\\BlCustomersService.cs",
-              "RelativeDocumentMoniker": "Bl\\Services\\BlCustomersService.cs",
-              "ToolTip": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\Services\\BlCustomersService.cs",
-              "RelativeToolTip": "Bl\\Services\\BlCustomersService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:11:32.672Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DalCustomersService.cs",
+              "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Dal\\Services\\DalCustomersService.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\DalCustomersService.cs",
+              "ToolTip": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Dal\\Services\\DalCustomersService.cs",
+              "RelativeToolTip": "Dal\\Services\\DalCustomersService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:22:53.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBlCustomers.cs",
+              "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\Api\\IBlCustomers.cs",
+              "RelativeDocumentMoniker": "Bl\\Api\\IBlCustomers.cs",
+              "ToolTip": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\Api\\IBlCustomers.cs",
+              "RelativeToolTip": "Bl\\Api\\IBlCustomers.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:24:43.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Server\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Server\\Controllers\\CustomersController.cs",
               "ToolTip": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Server\\Controllers\\CustomersController.cs",
               "RelativeToolTip": "Server\\Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T13:54:37.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "BlCustomersService.cs",
+              "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\Services\\BlCustomersService.cs",
+              "RelativeDocumentMoniker": "Bl\\Services\\BlCustomersService.cs",
+              "ToolTip": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\Services\\BlCustomersService.cs",
+              "RelativeToolTip": "Bl\\Services\\BlCustomersService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:11:32.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDalCustomers.cs",
+              "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Dal\\Api\\IDalCustomers.cs",
+              "RelativeDocumentMoniker": "Dal\\Api\\IDalCustomers.cs",
+              "ToolTip": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Dal\\Api\\IDalCustomers.cs",
+              "RelativeToolTip": "Dal\\Api\\IDalCustomers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:25:31.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
@@ -144,12 +183,11 @@
               "RelativeToolTip": "Server\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:29:43.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T20:29:43.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "BlManager.cs",
               "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\BlManager.cs",
               "RelativeDocumentMoniker": "Bl\\BlManager.cs",
@@ -157,12 +195,11 @@
               "RelativeToolTip": "Bl\\BlManager.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAADgvxcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:27:33.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T14:27:33.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "DalManager.cs",
               "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Dal\\DalManager.cs",
               "RelativeDocumentMoniker": "Dal\\DalManager.cs",
@@ -170,12 +207,11 @@
               "RelativeToolTip": "Dal\\DalManager.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:59:20.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T20:59:20.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "BlOrderService.cs",
               "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\Services\\BlOrderService.cs",
               "RelativeDocumentMoniker": "Bl\\Services\\BlOrderService.cs",
@@ -183,12 +219,11 @@
               "RelativeToolTip": "Bl\\Services\\BlOrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:12:00.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T14:12:00.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IBlManager.cs",
               "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\IBlManager.cs",
               "RelativeDocumentMoniker": "Bl\\IBlManager.cs",
@@ -196,12 +231,11 @@
               "RelativeToolTip": "Bl\\IBlManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:48:55.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T20:48:55.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "IBlOrders.cs",
               "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\Api\\IBlOrders.cs",
               "RelativeDocumentMoniker": "Bl\\Api\\IBlOrders.cs",
@@ -209,45 +243,7 @@
               "RelativeToolTip": "Bl\\Api\\IBlOrders.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:25:13.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IBlCustomers.cs",
-              "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\Api\\IBlCustomers.cs",
-              "RelativeDocumentMoniker": "Bl\\Api\\IBlCustomers.cs",
-              "ToolTip": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Bl\\Api\\IBlCustomers.cs",
-              "RelativeToolTip": "Bl\\Api\\IBlCustomers.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:24:43.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IDalCustomers.cs",
-              "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Dal\\Api\\IDalCustomers.cs",
-              "RelativeDocumentMoniker": "Dal\\Api\\IDalCustomers.cs",
-              "ToolTip": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Dal\\Api\\IDalCustomers.cs",
-              "RelativeToolTip": "Dal\\Api\\IDalCustomers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:25:31.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DalCustomersService.cs",
-              "DocumentMoniker": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Dal\\Services\\DalCustomersService.cs",
-              "RelativeDocumentMoniker": "Dal\\Services\\DalCustomersService.cs",
-              "ToolTip": "D:\\Documents\\\u200F\u200F\u05D4\u05D5\u05E8\u05D3\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\CarRental\\Dal\\Services\\DalCustomersService.cs",
-              "RelativeToolTip": "Dal\\Services\\DalCustomersService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:22:53.726Z"
+              "WhenOpened": "2025-04-23T14:25:13.025Z"
             },
             {
               "$type": "Document",

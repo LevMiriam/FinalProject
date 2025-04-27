@@ -28,6 +28,21 @@ namespace Server.Controllers
 			return Ok($"Invalid details");
 		}
 
+		[HttpDelete]
+		public IActionResult DeleteCustomer(Customer customer)
+		{
+			return _blManager.BlCustomers.DeleteCustomer(customer)
+				? Ok("The customer deleted successfully.")
+				: BadRequest("The delete failed.");
+		}
+		
+		[HttpGet]
+		public IActionResult GetAllCustomers()
+		{
+			return Ok(_blManager.BlCustomers.GetAllCustomers());
+		}
+
+
 
 
 	}

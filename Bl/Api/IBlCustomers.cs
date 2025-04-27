@@ -12,7 +12,8 @@ namespace Bl.Api
     {
 		
 		public bool AddNewCustomer(Customer customer);
-
+		public bool DeleteCustomer(Customer customer);
+		public List<Customer> GetAllCustomers();
 
 	}
 }

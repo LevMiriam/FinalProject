@@ -22,12 +22,22 @@ namespace Bl.Services
             if (string.IsNullOrEmpty(customer.Name))
                 throw new ArgumentNullException("Customr's name can't be null");
 			if (string.IsNullOrEmpty(customer.Phone))
-				throw new ArgumentNullException("Customr's name can't be null");
+				throw new ArgumentNullException("Customr's Phone can't be null");
 			if (string.IsNullOrEmpty(customer.Email))
-				throw new ArgumentNullException("Customr's name can't be null");
+				throw new ArgumentNullException("Customr's Email can't be null");
 			if (string.IsNullOrEmpty(customer.DriverLicenseNumber))
-				throw new ArgumentNullException("Customr's name can't be null");
+				throw new ArgumentNullException("Customr's DriverLicenseNumber can't be null");
             return _dalCustomers.AddCustomer(customer);
 		}
+
+        public bool DeleteCustomer(Customer customer)
+        {
+          return _dalCustomers.DeleteCustomer(customer);
+        }
+
+        public List<Customer> GetAllCustomers() 
+        {
+            return _dalCustomers.GetAllCustomers();
+        }
     }
 }

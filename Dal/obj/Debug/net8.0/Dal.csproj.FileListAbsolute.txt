@@ -1,0 +1,70 @@
+H:\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.deps.json
+H:\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+H:\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.dll
+H:\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.pdb
+H:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+H:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+H:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+H:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+H:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.dll
+H:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\refint\Dal.dll
+H:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.pdb
+H:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+H:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\ref\Dal.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\refint\Dal.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.pdb
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.deps.json
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.pdb
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\ref\Dal.dll
+C:\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.deps.json
+C:\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+C:\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.dll
+C:\פרויקט גמר\CarRental\Dal\bin\Debug\net8.0\Dal.pdb
+C:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+C:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+C:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+C:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+C:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.dll
+C:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\refint\Dal.dll
+C:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.pdb
+C:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+C:\פרויקט גמר\CarRental\Dal\obj\Debug\net8.0\ref\Dal.dll
+C:\FinalProject\Dal\bin\Debug\net8.0\Dal.deps.json
+C:\FinalProject\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+C:\FinalProject\Dal\bin\Debug\net8.0\Dal.dll
+C:\FinalProject\Dal\bin\Debug\net8.0\Dal.pdb
+C:\FinalProject\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+C:\FinalProject\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalProject\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+C:\FinalProject\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+C:\FinalProject\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+C:\FinalProject\Dal\obj\Debug\net8.0\Dal.dll
+C:\FinalProject\Dal\obj\Debug\net8.0\refint\Dal.dll
+C:\FinalProject\Dal\obj\Debug\net8.0\Dal.pdb
+C:\FinalProject\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+C:\FinalProject\Dal\obj\Debug\net8.0\ref\Dal.dll
+H:\יד אייר\FinalProject\Dal\bin\Debug\net8.0\Dal.deps.json
+H:\יד אייר\FinalProject\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+H:\יד אייר\FinalProject\Dal\bin\Debug\net8.0\Dal.dll
+H:\יד אייר\FinalProject\Dal\bin\Debug\net8.0\Dal.pdb
+H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\Dal.dll
+H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\refint\Dal.dll
+H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\Dal.pdb
+H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\ref\Dal.dll

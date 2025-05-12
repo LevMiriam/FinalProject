@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\services\\blcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\services\\blcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\services\\dalcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\services\\dalcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\api\\iblcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\api\\iblcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\services\\dalcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\services\\dalcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\services\\blcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\services\\blcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\models\\blcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\models\\blcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\api\\iblcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\api\\iblcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\api\\idalcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idalcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\models\\blsignupcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\models\\blsignupcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Dal\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "Dal\\Models\\Car.cs",
+              "ToolTip": "C:\\FinalProject\\Dal\\Models\\Car.cs",
+              "RelativeToolTip": "Dal\\Models\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:00:53.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBlCustomers.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Bl\\Api\\IBlCustomers.cs",
+              "RelativeDocumentMoniker": "Bl\\Api\\IBlCustomers.cs",
+              "ToolTip": "C:\\FinalProject\\Bl\\Api\\IBlCustomers.cs",
+              "RelativeToolTip": "Bl\\Api\\IBlCustomers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:58:20.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlCar.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Bl\\Models\\BlCar.cs",
+              "RelativeDocumentMoniker": "Bl\\Models\\BlCar.cs",
+              "ToolTip": "C:\\FinalProject\\Bl\\Models\\BlCar.cs",
+              "RelativeToolTip": "Bl\\Models\\BlCar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:29:08.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDalCars.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Dal\\Api\\IDalCars.cs",
+              "RelativeDocumentMoniker": "Dal\\Api\\IDalCars.cs",
+              "ToolTip": "C:\\FinalProject\\Dal\\Api\\IDalCars.cs",
+              "RelativeToolTip": "Dal\\Api\\IDalCars.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:19:55.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Server\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\FinalProject\\Server\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "Server\\Controllers\\CarsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:05:38.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DalCarsService.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Dal\\Services\\DalCarsService.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\DalCarsService.cs",
+              "ToolTip": "C:\\FinalProject\\Dal\\Services\\DalCarsService.cs",
+              "RelativeToolTip": "Dal\\Services\\DalCarsService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:01:41.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBlcars.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Bl\\Api\\IBlcars.cs",
+              "RelativeDocumentMoniker": "Bl\\Api\\IBlcars.cs",
+              "ToolTip": "C:\\FinalProject\\Bl\\Api\\IBlcars.cs",
+              "RelativeToolTip": "Bl\\Api\\IBlcars.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:01:16.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Server\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\FinalProject\\Server\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Server\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:57:54.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DalCustomersService.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Dal\\Services\\DalCustomersService.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\DalCustomersService.cs",
+              "ToolTip": "C:\\FinalProject\\Dal\\Services\\DalCustomersService.cs",
+              "RelativeToolTip": "Dal\\Services\\DalCustomersService.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAwCoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:57:16.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlCustomersService.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Bl\\Services\\BlCustomersService.cs",
+              "RelativeDocumentMoniker": "Bl\\Services\\BlCustomersService.cs",
+              "ToolTip": "C:\\FinalProject\\Bl\\Services\\BlCustomersService.cs",
+              "RelativeToolTip": "Bl\\Services\\BlCustomersService.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAmwB0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:50:28.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlCarsService.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Bl\\Services\\BlCarsService.cs",
+              "RelativeDocumentMoniker": "Bl\\Services\\BlCarsService.cs",
+              "ToolTip": "C:\\FinalProject\\Bl\\Services\\BlCarsService.cs",
+              "RelativeToolTip": "Bl\\Services\\BlCarsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:50:28.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BlSignUpCustomer.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Bl\\Models\\BlSignUpCustomer.cs",
+              "RelativeDocumentMoniker": "Bl\\Models\\BlSignUpCustomer.cs",
+              "ToolTip": "C:\\FinalProject\\Bl\\Models\\BlSignUpCustomer.cs",
+              "RelativeToolTip": "Bl\\Models\\BlSignUpCustomer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:29:03.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

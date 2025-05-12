@@ -1,0 +1,60 @@
+H:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.deps.json
+H:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.dll
+H:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.pdb
+H:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Dal.dll
+H:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Dal.pdb
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.AssemblyReference.cache
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.AssemblyInfoInputs.cache
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.AssemblyInfo.cs
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.CoreCompileInputs.cache
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.Up2Date
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.dll
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\refint\Bl.dll
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.pdb
+H:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\ref\Bl.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.AssemblyInfo.cs
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\refint\Bl.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.pdb
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.deps.json
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.pdb
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Dal.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Dal.pdb
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.Up2Date
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\ref\Bl.dll
+C:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.deps.json
+C:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.dll
+C:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Bl.pdb
+C:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Dal.dll
+C:\פרויקט גמר\CarRental\Bl\bin\Debug\net8.0\Dal.pdb
+C:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.AssemblyReference.cache
+C:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+C:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.AssemblyInfoInputs.cache
+C:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.AssemblyInfo.cs
+C:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.CoreCompileInputs.cache
+C:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.csproj.Up2Date
+C:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.dll
+C:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\refint\Bl.dll
+C:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\Bl.pdb
+C:\פרויקט גמר\CarRental\Bl\obj\Debug\net8.0\ref\Bl.dll
+C:\FinalProject\Bl\bin\Debug\net8.0\Bl.deps.json
+C:\FinalProject\Bl\bin\Debug\net8.0\Bl.dll
+C:\FinalProject\Bl\bin\Debug\net8.0\Bl.pdb
+C:\FinalProject\Bl\bin\Debug\net8.0\Dal.dll
+C:\FinalProject\Bl\bin\Debug\net8.0\Dal.pdb
+C:\FinalProject\Bl\obj\Debug\net8.0\Bl.csproj.AssemblyReference.cache
+C:\FinalProject\Bl\obj\Debug\net8.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalProject\Bl\obj\Debug\net8.0\Bl.AssemblyInfoInputs.cache
+C:\FinalProject\Bl\obj\Debug\net8.0\Bl.AssemblyInfo.cs
+C:\FinalProject\Bl\obj\Debug\net8.0\Bl.csproj.CoreCompileInputs.cache
+C:\FinalProject\Bl\obj\Debug\net8.0\Bl.csproj.Up2Date
+C:\FinalProject\Bl\obj\Debug\net8.0\Bl.dll
+C:\FinalProject\Bl\obj\Debug\net8.0\refint\Bl.dll
+C:\FinalProject\Bl\obj\Debug\net8.0\Bl.pdb
+C:\FinalProject\Bl\obj\Debug\net8.0\ref\Bl.dll

@@ -858,3 +858,4 @@ H:\יד אייר\FinalProject\Server\obj\Debug\net8.0\refint\Server.dll
 H:\יד אייר\FinalProject\Server\obj\Debug\net8.0\Server.pdb
 H:\יד אייר\FinalProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 H:\יד אייר\FinalProject\Server\obj\Debug\net8.0\ref\Server.dll
+C:\FinalProject\Server\obj\Debug\net8.0\Server.sourcelink.json

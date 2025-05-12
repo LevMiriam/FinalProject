@@ -73,3 +73,4 @@ H:\יד אייר\FinalProject\Bl\obj\Debug\net8.0\Bl.dll
 H:\יד אייר\FinalProject\Bl\obj\Debug\net8.0\refint\Bl.dll
 H:\יד אייר\FinalProject\Bl\obj\Debug\net8.0\Bl.pdb
 H:\יד אייר\FinalProject\Bl\obj\Debug\net8.0\ref\Bl.dll
+C:\FinalProject\Bl\obj\Debug\net8.0\Bl.sourcelink.json

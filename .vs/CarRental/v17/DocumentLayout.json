@@ -70,8 +70,7 @@
               "RelativeToolTip": "Dal\\Models\\Car.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:00:53.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T18:00:53.582Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "Bl\\Api\\IBlCustomers.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:58:20.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T16:58:20.81Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Bl\\Models\\BlCar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:29:08.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:29:08.065Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "Dal\\Api\\IDalCars.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:19:55.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:19:55.787Z"
             },
             {
               "$type": "Document",
@@ -120,7 +116,7 @@
               "RelativeDocumentMoniker": "Server\\Controllers\\CarsController.cs",
               "ToolTip": "C:\\FinalProject\\Server\\Controllers\\CarsController.cs",
               "RelativeToolTip": "Server\\Controllers\\CarsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T17:05:38.283Z",
               "EditorCaption": ""
@@ -135,8 +131,7 @@
               "RelativeToolTip": "Dal\\Services\\DalCarsService.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAYwBgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:01:41.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:01:41.66Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "Bl\\Api\\IBlcars.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:01:16.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:01:16.801Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "Server\\Controllers\\CustomersController.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:57:54.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T16:57:54.644Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "Dal\\Services\\DalCustomersService.cs",
               "ViewState": "AQIAAFkAAAAAAAAAAAAAwCoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:57:16.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T16:57:16.522Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "Bl\\Services\\BlCustomersService.cs",
               "ViewState": "AQIAAEgAAAAAAAAAAAAmwB0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:50:28.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T16:50:28.854Z"
             },
             {
               "$type": "Document",
@@ -200,8 +191,7 @@
               "RelativeToolTip": "Bl\\Services\\BlCarsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:50:28.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T16:50:28.213Z"
             },
             {
               "$type": "Document",
@@ -213,8 +203,7 @@
               "RelativeToolTip": "Bl\\Models\\BlSignUpCustomer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:29:03.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:29:03.353Z"
             }
           ]
         }

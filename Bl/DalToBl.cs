@@ -41,5 +41,23 @@ namespace Bl
 			else
 				return null;
 		}
+
+		public static BlCarToAdd ToblCarToAdd(Car car)
+		{
+			if (car != null)
+			{
+				return new BlCarToAdd()
+				{
+					Id = car.Id,
+                    Make = car.Make,
+                    Model = car.Model,
+                    Year = car.Year,
+                    LicensePlate = car.LicensePlate,
+                    Available = car.Available,
+				};
+			}
+			else
+				return null;
+		}
 	}
 }

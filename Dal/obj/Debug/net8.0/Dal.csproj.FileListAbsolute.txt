@@ -68,3 +68,4 @@ H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\refint\Dal.dll
 H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\Dal.pdb
 H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
 H:\יד אייר\FinalProject\Dal\obj\Debug\net8.0\ref\Dal.dll
+C:\FinalProject\Dal\obj\Debug\net8.0\Dal.sourcelink.json

@@ -19,6 +19,8 @@ public partial class dbClass : DbContext
 
     public virtual DbSet<Customer> Customers { get; set; }
 
+    public virtual DbSet<Location> Locations { get; set; }
+
     public virtual DbSet<Price> Prices { get; set; }
 
     public virtual DbSet<Rental> Rentals { get; set; }
@@ -40,20 +42,21 @@ public partial class dbClass : DbContext
             entity.Property(e => e.LicensePlate)
                 .HasMaxLength(50)
                 .IsUnicode(false)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("LicensePlate ");
             entity.Property(e => e.Make)
                 .HasMaxLength(50)
-                .IsUnicode(false)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+                .IsUnicode(false);
             entity.Property(e => e.Model)
                 .HasMaxLength(50)
-                .IsUnicode(false)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+                .IsUnicode(false);
             entity.Property(e => e.Year)
                 .HasMaxLength(50)
-                .IsUnicode(false)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+                .IsUnicode(false);
+
+            entity.HasOne(d => d.Location).WithMany(p => p.Cars)
+                .HasForeignKey(d => d.LocationId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Cars_ToLocation");
         });
 
         modelBuilder.Entity<Customer>(entity =>
@@ -63,20 +66,31 @@ public partial class dbClass : DbContext
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.DriverLicenseNumber)
                 .HasMaxLength(50)
-                .IsUnicode(false)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+                .IsUnicode(false);
             entity.Property(e => e.Email)
                 .HasMaxLength(50)
-                .IsUnicode(false)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+                .IsUnicode(false);
             entity.Property(e => e.Name)
                 .HasMaxLength(50)
-                .IsUnicode(false)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+                .IsUnicode(false);
             entity.Property(e => e.Phone)
                 .HasMaxLength(50)
-                .IsUnicode(false)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+                .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<Location>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Location__3214EC07094280EB");
+
+            entity.ToTable("Location");
+
+            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.City)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Neighborhood)
+                .HasMaxLength(50)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Price>(entity =>

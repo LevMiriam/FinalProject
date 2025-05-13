@@ -1,4 +1,5 @@
-﻿using Dal.models;
+﻿using Bl.Models;
+using Dal.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,9 @@ namespace Bl.Api
     public interface IBlcars
     {
         public List<Car> GetAllCars();
-        public bool AddCar(BlCar blcar);
+        public bool AddCar(BlCarToAdd car);
+        public bool DeleteCarById(int id);
+        public bool UpdateCarDetails(BlCarToAdd blCarToAdd);
+        public Car GetCarById(int id);
     }
 }

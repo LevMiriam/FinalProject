@@ -178,6 +178,7 @@ namespace Dal.Services
             }
             catch (Exception ex)
             {
+
                 Console.WriteLine($"Error updating customer: {ex.Message}");
                 return false;
             }

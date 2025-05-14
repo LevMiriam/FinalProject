@@ -18,14 +18,18 @@ namespace Dal.Services
         }
 
         public List<Car> GetAllCars()
+
         {
-            return _context.Cars.ToList();
+
+            return _context.Cars.Include(c => c.Location).ToList();
+
         }
+
 
         public Car GetCarById(int id)
         {
-            var car=_context.Cars.FirstOrDefault(c=> c.Id ==id);
-            return car ==null ? null : car;
+            var car = _context.Cars.FirstOrDefault(c => c.Id == id);
+            return car == null ? null : car;
         }
 
         public bool AddCar(Car car)
@@ -47,6 +51,7 @@ namespace Dal.Services
                 return false;
             }
         }
+
 
         public bool DeleteCarById(int carId)
         {

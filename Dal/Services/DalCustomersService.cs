@@ -23,39 +23,39 @@ namespace Dal.Services
         public void SignUp(Customer customer)
         {
             _context.Customers.Add(customer);
-			_context.SaveChanges();
-		}
+            _context.SaveChanges();
+        }
 
         public Customer LogIn(int id)
         {
-          var cus= _context.Customers.FirstOrDefault(c => c.Id ==id);
-			return cus;
-		}
+            var cus = _context.Customers.FirstOrDefault(c => c.Id == id);
+            return cus;
+        }
 
-		//public Customer IsCustomer(int id)
-		//{
-		//	var customer = _context.Customers.FirstOrDefault(c => c.Id == id);
-		//	return customer;
-		//}
+        //public Customer IsCustomer(int id)
+        //{
+        //	var customer = _context.Customers.FirstOrDefault(c => c.Id == id);
+        //	return customer;
+        //}
 
-		public bool AddCustomer(Customer customer)
+        public bool AddCustomer(Customer customer)
         {
             _context.Customers.Add(customer);
-            int result= _context.SaveChanges();
+            int result = _context.SaveChanges();
             return result > 0;
         }
-		public List<Customer> GetAllCustomers()
-		{
-			return _context.Customers.ToList();
-		}
+        public List<Customer> GetAllCustomers()
+        {
+            return _context.Customers.ToList();
+        }
 
-		public bool DeleteCustomerById(int id)
-		{
-			var customer= _context.Customers.FirstOrDefault(c => c.Id == id);
-			_context.Customers.Remove(customer);
-			int result = _context.SaveChanges();
-			return result > 0;
-		}
+        public bool DeleteCustomerById(int id)
+        {
+            var customer = _context.Customers.FirstOrDefault(c => c.Id == id);
+            _context.Customers.Remove(customer);
+            int result = _context.SaveChanges();
+            return result > 0;
+        }
 
         public bool HasRentalsInLastMonths(int customerId, int months)
         {
@@ -63,15 +63,15 @@ namespace Dal.Services
             {
                 var cutoffDate = DateTime.Now.AddMonths(-months);
 
-             
-                 
-               bool a = _context.Rentals
-                    .Any(r => r.CustomerId == customerId && r.ReturnDate < DateOnly.FromDateTime(cutoffDate));
+
+
+                bool a = _context.Rentals
+                     .Any(r => r.CustomerId == customerId && r.ReturnDate < DateOnly.FromDateTime(cutoffDate));
                 return a;
             }
             catch (Exception ex)
             {
-     
+
                 Console.WriteLine($"Error checking rentals: {ex.Message}");
                 return false;
             }
@@ -129,7 +129,7 @@ namespace Dal.Services
                 var inactiveCustomers = _context.Customers
                     .Where(c => !c.Rentals.Any(r => r.RentalDate > DateOnly.FromDateTime(cutoffDate)))
                     .ToList();
-                    
+
                 if (!inactiveCustomers.Any())
                 {
                     Console.WriteLine("No inactive customers found for deletion.");

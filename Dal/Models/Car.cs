@@ -17,7 +17,7 @@ public partial class Car
 
     public bool Available { get; set; }
 
-    public int NumOfSeats { get; set; }
+    public int NumOfSeats { get; set; } 
 
     public int LocationId { get; set; }
 

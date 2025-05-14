@@ -9,5 +9,5 @@ public partial class BlCustomer
 
     public string Name { get; set; } = null!;
 
-    //public virtual ICollection<BlRental> Rentals { get; set; } = new List<BlRental>();
+    public virtual ICollection<BlRental> Rentals { get; set; } = new List<BlRental>();
 }

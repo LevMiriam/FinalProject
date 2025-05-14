@@ -2,13 +2,15 @@ using Bl;
 using Dal;
 using Dal.models;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IBlManager, BlManager>(); 
@@ -16,21 +18,14 @@ builder.Services.AddSingleton<IDalManager, DalManager>();
 builder.Services.AddControllers();
 builder.Services.AddDbContext<dbClass>(options =>
 	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-
-
-
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

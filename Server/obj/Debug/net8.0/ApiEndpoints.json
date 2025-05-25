@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "Server.Controllers.CustomersController",
+    "Method": "GetAllCustomers",
+    "RelativePath": "api/Customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.CustomersController",
+    "Method": "AddCustomer",
+    "RelativePath": "api/Customers/AddCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Dal.models.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.CustomersController",
+    "Method": "DeleteCustomerById",
+    "RelativePath": "api/Customers/DeleteCustomerById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.CustomersController",
+    "Method": "LogIn",
+    "RelativePath": "api/Customers/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.CustomersController",
+    "Method": "SignUp",
+    "RelativePath": "api/Customers/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Bl.Models.BlSignUpCustomer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,688 @@
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\appsettings.Development.json
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\appsettings.json
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.exe
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.deps.json
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.runtimeconfig.json
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.pdb
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Azure.Core.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Azure.Identity.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.ClientModel.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Drawing.Common.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Formats.Asn1.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.IO.Pipelines.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Memory.Data.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Security.Permissions.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Text.Json.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Bl.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Dal.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Bl.pdb
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Dal.pdb
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets.build.json
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets.development.json
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets.pack.json
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.csproj.Up2Date
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.dll
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\refint\Server.dll
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.pdb
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
+H:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\ref\Server.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Humanizer.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.CodeDom.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.Convention.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\refint\Server.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.pdb
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.exe
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.deps.json
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.runtimeconfig.json
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.pdb
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Humanizer.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Bl.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Dal.dll
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Bl.pdb
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Dal.pdb
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.csproj.Up2Date
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
+C:\Users\User\Desktop\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\ref\Server.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\appsettings.Development.json
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\appsettings.json
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.exe
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.deps.json
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.runtimeconfig.json
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Server.pdb
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Azure.Core.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Azure.Identity.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Humanizer.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.ClientModel.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.CodeDom.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Memory.Data.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Text.Json.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Bl.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Dal.dll
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Bl.pdb
+C:\פרויקט גמר\CarRental\Server\bin\Debug\net8.0\Dal.pdb
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.csproj.Up2Date
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.dll
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\refint\Server.dll
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.pdb
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
+C:\פרויקט גמר\CarRental\Server\obj\Debug\net8.0\ref\Server.dll
+C:\FinalProject\Server\bin\Debug\net8.0\appsettings.Development.json
+C:\FinalProject\Server\bin\Debug\net8.0\appsettings.json
+C:\FinalProject\Server\bin\Debug\net8.0\Server.exe
+C:\FinalProject\Server\bin\Debug\net8.0\Server.deps.json
+C:\FinalProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
+C:\FinalProject\Server\bin\Debug\net8.0\Server.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Server.pdb
+C:\FinalProject\Server\bin\Debug\net8.0\Azure.Core.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Azure.Identity.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Humanizer.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.ClientModel.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.CodeDom.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Text.Json.dll
+C:\FinalProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\FinalProject\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\FinalProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Bl.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Dal.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Bl.pdb
+C:\FinalProject\Server\bin\Debug\net8.0\Dal.pdb
+C:\FinalProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
+C:\FinalProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
+C:\FinalProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
+C:\FinalProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
+C:\FinalProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\FinalProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\FinalProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
+C:\FinalProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
+C:\FinalProject\Server\obj\Debug\net8.0\Server.dll
+C:\FinalProject\Server\obj\Debug\net8.0\refint\Server.dll
+C:\FinalProject\Server\obj\Debug\net8.0\Server.pdb
+C:\FinalProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
+C:\FinalProject\Server\obj\Debug\net8.0\ref\Server.dll

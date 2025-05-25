@@ -25,7 +25,7 @@ namespace Bl.Models
 
         public int LocationId { get; set; }
         public BlLocationToAdd Location { get; set; } = null!;
-        public virtual ICollection<Rental> Rentals { get; set; } = new List<Rental>();
+        //public virtual ICollection<Rental> Rentals { get; set; } = new List<Rental>();
 
     }
 }

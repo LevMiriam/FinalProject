@@ -26,6 +26,10 @@ namespace Bl
             CreateMap<BlSignUpCustomer, Customer>();
             CreateMap<BlLocationToAdd, Location>();
             CreateMap<Location, BlLocationToAdd>();
+            CreateMap<BlCar, Car>();
+            CreateMap<Car, BlCar>();
+            CreateMap<Car, BlCar>()
+                .ForMember(dest => dest.blLocationToAdd, opt => opt.MapFrom(src => src.Location));
 
 
 

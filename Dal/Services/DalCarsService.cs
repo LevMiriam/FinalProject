@@ -20,9 +20,7 @@ namespace Dal.Services
         public List<Car> GetAllCars()
 
         {
-
             return _context.Cars.Include(c => c.Location).ToList();
-
         }
 
 
@@ -87,6 +85,49 @@ namespace Dal.Services
                 return false;
             }
         }
+
+        public List<Car> GetCarsByCity(string city)
+        {
+            return _context.Cars
+                .Where(car => car.Available &&
+                              _context.Locations.Any(location =>
+                                  location.Id == car.LocationId &&
+                                  location.City == city))
+                .ToList();
+        }
+        public List<Car> GetCars(string city = null, string neighborhood = null, int? seats = null, string model = null)
+        {
+            var query = _context.Cars.AsQueryable();
+
+            if (!string.IsNullOrEmpty(city))
+            {
+                query = query.Where(car => car.Available &&
+                    _context.Locations.Any(location =>
+                        location.Id == car.LocationId &&
+                        location.City == city));
+            }
+
+            if (!string.IsNullOrEmpty(neighborhood))
+            {
+                query = query.Where(car => car.Available &&
+                    _context.Locations.Any(location =>
+                        location.Id == car.LocationId &&
+                        location.Neighborhood == neighborhood));
+            }
+
+            if (seats.HasValue)
+            {
+                query = query.Where(car => car.NumOfSeats == seats.Value);
+            }
+
+            if (!string.IsNullOrEmpty(model))
+            {
+                query = query.Where(car => car.Model == model);
+            }
+
+            return query.Include(c => c.Location).ToList();
+        }
+
 
     }
 }

@@ -70,5 +70,78 @@ namespace Server.Controllers
                 return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
+
+      
+
+        //public IActionResult GetCarCountByCity(string city)
+        //{
+        //    if (string.IsNullOrEmpty(city))
+        //    {
+        //        return BadRequest("City parameter is required.");
+        //    }
+
+        //    List<BlCar> carCount = _blManager.BlCars.GetCarsByCity(city);
+
+        //    if (carCount.Count > 0)
+        //    {
+        //        return Ok($"{carCount.Count} cars available in {city} : {carCount} ");
+        //        //var carList = carCount.Select(c => new
+        //        //{
+        //        //    c.Id, 
+        //        //    c.NumOfSeats, 
+        //        //    c.Model,
+
+        //        //}).ToList();
+
+        //        //return Ok(new
+        //        //{
+        //        //    Count = carList.Count,
+        //        //    Cars = carList 
+        //        //});
+        //    }
+        //    else
+        //    {
+        //        return NotFound("No cars found in the specified city.");
+        //    }
+        //}
+
+
+        [HttpGet("GetCarsByCity")]
+        public IActionResult GetCarCountByCity(string city)
+        {
+            if (string.IsNullOrEmpty(city))
+            {
+                return BadRequest("City parameter is required.");
+            }
+
+            List<BlCar> carCount = _blManager.BlCars.GetCarsByCity(city);
+
+            if (carCount.Count > 0)
+            {
+                return Ok(carCount); 
+            }
+            else
+            {
+                return NotFound("No cars found in the specified city.");
+            }
+        }
+
+
+
+        [HttpGet("GetCars")]
+        public IActionResult GetCars(string city = null, string neighborhood = null, int? seats = null, string model = null)
+        {
+            List<BlCar> cars = _blManager.BlCars.GetCars(city, neighborhood, seats, model);
+
+            if (cars.Count > 0)
+            {
+                return Ok(cars);
+            }
+            else
+            {
+                return NotFound("No cars found with the specified filters.");
+            }
+        }
+
     }
 }

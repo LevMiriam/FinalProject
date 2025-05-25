@@ -8,7 +8,7 @@ namespace Bl.Models
 {
     public class BlLocationToAdd
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
 
         public string City { get; set; } = null!;
 

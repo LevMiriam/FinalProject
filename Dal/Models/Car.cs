@@ -17,11 +17,17 @@ public partial class Car
 
     public bool Available { get; set; }
 
-    public int NumOfSeats { get; set; } 
+    public int NumOfSeats { get; set; }
 
     public int LocationId { get; set; }
+
+    public decimal BaseRate { get; set; }
+
+    public virtual ICollection<CarRate> CarRates { get; set; } = new List<CarRate>();
 
     public virtual Location Location { get; set; } = null!;
 
     public virtual ICollection<Rental> Rentals { get; set; } = new List<Rental>();
+
+    public virtual ICollection<SpecialRate> SpecialRates { get; set; } = new List<SpecialRate>();
 }

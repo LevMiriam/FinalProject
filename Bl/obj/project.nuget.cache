@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rFDoOgo3Mko=",
+  "dgSpecHash": "Fif0C8DRxDk=",
   "success": true,
-  "projectFilePath": "C:\\FinalProject\\Bl\\Bl.csproj",
+  "projectFilePath": "H:\\פרויקט מעודכן\\3\\FinalProject\\Bl\\Bl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\פלדמן מנוחה רחל\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\פלדמן מנוחה רחל\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

@@ -84,6 +84,21 @@ namespace Bl.Services
             return _dalCars.UpdateCar(newCar);
         }
 
+        public List<BlCar> GetCarsByCity(string city)
+        {
+            List<Car> cars = _dalCars.GetCarsByCity(city);
 
+            var carsToAdd = _mapper.Map<List<BlCar>>(cars);
+
+            return carsToAdd;
+        }
+        public List<BlCar> GetCars(string city = null, string neighborhood = null, int? seats = null, string model = null)
+        {
+            var cars = _dalCars.GetCars(city, neighborhood, seats, model);
+
+            var carsToShow = _mapper.Map<List<BlCar>>(cars);
+
+            return carsToShow;
+        }
     }
 }

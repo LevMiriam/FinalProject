@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FinalProject\\Dal\\Dal.csproj": {}
+    "H:\\פרויקט מעודכן\\3\\FinalProject\\Dal\\Dal.csproj": {}
   },
   "projects": {
-    "C:\\FinalProject\\Dal\\Dal.csproj": {
+    "H:\\פרויקט מעודכן\\3\\FinalProject\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FinalProject\\Dal\\Dal.csproj",
+        "projectUniqueName": "H:\\פרויקט מעודכן\\3\\FinalProject\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "C:\\FinalProject\\Dal\\Dal.csproj",
+        "projectPath": "H:\\פרויקט מעודכן\\3\\FinalProject\\Dal\\Dal.csproj",
         "packagesPath": "C:\\Users\\פלדמן מנוחה רחל\\.nuget\\packages\\",
-        "outputPath": "C:\\FinalProject\\Dal\\obj\\",
+        "outputPath": "H:\\פרויקט מעודכן\\3\\FinalProject\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

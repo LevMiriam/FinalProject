@@ -2,6 +2,7 @@
 using Bl.Api;
 using Bl.Services;
 using Dal;
+using Dal.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,15 +16,15 @@ namespace Bl
 
 
         public IBlCustomers BlCustomers { get; }
-        public IBlOrders BlOrder { get; }
+        public IBlRentals BlRental { get; }
         public IBlcars BlCars { get; }
 
 
         public BlManager(IDalManager dalManager, IMapper mapper)
         {
-			BlCustomers = new BlCustomersService(dalManager.DalCustomers,mapper);
-			BlOrder = new BlRentalService(dalManager.DalOrders);
-            BlCars = new BlCarsService(dalManager.DalCars, mapper);
+			BlCustomers = new BlCustomersService(dalManager,mapper);
+            BlRental = new BlRentalService(dalManager, mapper);
+            BlCars = new BlCarsService(dalManager, mapper);
         }
     }
 }

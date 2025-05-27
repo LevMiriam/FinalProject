@@ -1,6 +1,7 @@
 ﻿using Bl;
 using Bl.Models;
 using Dal.models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Server.Controllers
@@ -20,7 +21,6 @@ namespace Server.Controllers
         {
             return Ok(_blManager.BlCars.GetAllCars());
         }
-
         [HttpGet("GetCarById")]
         public IActionResult GetCarById(int id)
         {
@@ -71,8 +71,6 @@ namespace Server.Controllers
             }
         }
 
-      
-
         //public IActionResult GetCarCountByCity(string city)
         //{
         //    if (string.IsNullOrEmpty(city))
@@ -105,7 +103,6 @@ namespace Server.Controllers
         //    }
         //}
 
-
         [HttpGet("GetCarsByCity")]
         public IActionResult GetCarCountByCity(string city)
         {
@@ -126,14 +123,33 @@ namespace Server.Controllers
             }
         }
 
+        //[Authorize(Roles = "Admin,User")]
+        //[HttpGet("GetCars")]
+        //public IActionResult GetCars(string city = null, string neighborhood = null, int? seats = null, string model = null)
+        //{
+        //    List<BlCar> cars = _blManager.BlCars.GetCars(city, neighborhood, seats, model);
 
+        //    if (cars.Count > 0)
+        //    {
+        //        return Ok(cars);
+        //    }
+        //    else
+        //    {
+        //        return NotFound("No cars found with the specified filters.");
+        //    }
+        //}
 
         [HttpGet("GetCars")]
         public IActionResult GetCars(string city = null, string neighborhood = null, int? seats = null, string model = null)
         {
+            if (!User.Identity.IsAuthenticated)
+            {
+                return Unauthorized("User is not authenticated.");
+            }
+
             List<BlCar> cars = _blManager.BlCars.GetCars(city, neighborhood, seats, model);
 
-            if (cars.Count > 0)
+            if (cars != null && cars.Count > 0)
             {
                 return Ok(cars);
             }
@@ -142,6 +158,5 @@ namespace Server.Controllers
                 return NotFound("No cars found with the specified filters.");
             }
         }
-
     }
 }

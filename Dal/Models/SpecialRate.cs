@@ -7,13 +7,9 @@ public partial class SpecialRate
 {
     public int Id { get; set; }
 
-    public int CarId { get; set; }
-
-    public decimal Price { get; set; }
+    public decimal DiscountPercentage { get; set; }
 
     public DateOnly StartDate { get; set; }
 
     public DateOnly EndDate { get; set; }
-
-    public virtual Car Car { get; set; } = null!;
 }

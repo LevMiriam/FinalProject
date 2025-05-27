@@ -11,7 +11,8 @@ namespace Bl.Api
 {
     public interface IBlCustomers
     {
-		public bool SignUp(BlSignUpCustomer blSignUpCustomer);
+        public bool UserExists(string name);
+        public bool SignUp(BlSignUpCustomer blSignUpCustomer);
         public Customer LogIn(int id);
 		public bool AddNewCustomer(Customer customer);
 		public bool DeleteCustomerById(int id);

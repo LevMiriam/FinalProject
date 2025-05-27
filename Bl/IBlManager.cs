@@ -11,7 +11,7 @@ namespace Bl
 	public interface IBlManager
 	{
 		IBlCustomers BlCustomers { get; }
-		IBlOrders BlOrder { get; }
+        public IBlRentals BlRental { get; }
         public IBlcars BlCars { get; }
     }
 }

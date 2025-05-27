@@ -14,4 +14,6 @@ public partial class Rate
     public decimal? BiWeeklyRate { get; set; }
 
     public decimal? MonthlyRate { get; set; }
+
+    public virtual ICollection<Car> Cars { get; set; } = new List<Car>();
 }

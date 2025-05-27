@@ -20,6 +20,11 @@ namespace Dal.Services
         {
             _context = context;
         }
+
+        public bool UserExists(string username)
+        {
+            return _context.Customers.Any(c => c.Name == username);
+        }
         public void SignUp(Customer customer)
         {
             _context.Customers.Add(customer);

@@ -15,16 +15,19 @@ namespace Bl.Services
 {
     public class BlCustomersService : IBlCustomers
     {
-        private readonly IDalCustomers _dalCustomers;
+        private readonly IDalManager _dalManager;
         private readonly IMapper _mapper;
 
-        public BlCustomersService(IDalCustomers dalCustomers, IMapper mapper)
+        public BlCustomersService(IDalManager dalManager, IMapper mapper)
         {
-            _dalCustomers = dalCustomers;
+            _dalManager = dalManager;
             _mapper = mapper;
 
         }
-
+        public bool UserExists(string name)
+        {
+            return _dalManager.DalCustomers.UserExists(name);
+        }
         public bool SignUp(BlSignUpCustomer blSignUpCustomer)
         {
             if (string.IsNullOrWhiteSpace(blSignUpCustomer.Name)
@@ -33,17 +36,17 @@ namespace Bl.Services
                || string.IsNullOrWhiteSpace(blSignUpCustomer.Email)
                || string.IsNullOrWhiteSpace(blSignUpCustomer.DriverLicenseNumber))
                 return false;
-            var existing = _dalCustomers.LogIn(blSignUpCustomer.Id);
+            var existing = _dalManager.DalCustomers.LogIn(blSignUpCustomer.Id);
             if (existing != null)
                 return false;
             var newCustomer = _mapper.Map<Customer>(blSignUpCustomer);
-            _dalCustomers.SignUp(newCustomer);
+            _dalManager.DalCustomers.SignUp(newCustomer);
             return true;
         }
 
         public Customer LogIn(int id)
         {
-            return _dalCustomers.LogIn(id);
+            return _dalManager.DalCustomers.LogIn(id);
         }
 
         public bool AddNewCustomer(Customer customer)
@@ -56,16 +59,16 @@ namespace Bl.Services
                 throw new ArgumentNullException("Customr's email can't be null");
             if (string.IsNullOrEmpty(customer.DriverLicenseNumber))
                 throw new ArgumentNullException("Customr's driverLicenseNumber can't be null");
-            return _dalCustomers.AddCustomer(customer);
+            return _dalManager.DalCustomers.AddCustomer(customer);
         }
 
         public bool DeleteCustomerById(int id)
         {
-            return _dalCustomers.DeleteCustomerById(id);
+            return _dalManager.DalCustomers.DeleteCustomerById(id);
         }
         public List<Customer> GetAllCustomers()
         {
-            return _dalCustomers.GetAllCustomers();
+            return _dalManager.DalCustomers.GetAllCustomers();
         }
 
         public bool DeleteCustomerIfInactive(int customerId, int months)
@@ -75,10 +78,10 @@ namespace Bl.Services
                 throw new ArgumentException("Months must be greater than 0.");
             }
 
-            bool hasRentals = _dalCustomers.HasRentalsInLastMonths(customerId, months);
+            bool hasRentals = _dalManager.DalCustomers.HasRentalsInLastMonths(customerId, months);
             if (hasRentals)
             {
-                return _dalCustomers.DeleteCustomer(customerId);
+                return _dalManager.DalCustomers.DeleteCustomer(customerId);
             }
 
             Console.WriteLine($"Customer with ID {customerId} is still active.");
@@ -92,7 +95,7 @@ namespace Bl.Services
                 throw new ArgumentException("Months must be greater than 0.");
             }
 
-            return _dalCustomers.DeleteInactiveCustomers(months);
+            return _dalManager.DalCustomers.DeleteInactiveCustomers(months);
         }
 
         public bool UpdateCustomerDetails(BlSignUpCustomer blSignUpCustomer)
@@ -109,7 +112,7 @@ namespace Bl.Services
                 return false;
             var newCustomer = _mapper.Map<Customer>(blSignUpCustomer);
 
-            return _dalCustomers.UpdateCustomer(newCustomer);
+            return _dalManager.DalCustomers.UpdateCustomer(newCustomer);
         }
 
     }

@@ -13,32 +13,18 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace Bl
 {
     public class MappingProfile : Profile
-
     {
 
         public MappingProfile()
 
         {
-
-            CreateMap<Car, BlCarToAdd>();
-            CreateMap<BlCarToAdd, Car>();
-            CreateMap<Customer, BlSignUpCustomer>();
-            CreateMap<BlSignUpCustomer, Customer>();
-            CreateMap<BlLocationToAdd, Location>();
-            CreateMap<Location, BlLocationToAdd>();
-            CreateMap<BlCar, Car>();
-            CreateMap<Car, BlCar>();
+            CreateMap<Car, BlCarToAdd>().ReverseMap();
+            CreateMap<Customer, BlSignUpCustomer>().ReverseMap();
+            CreateMap<BlLocationToAdd, Location>().ReverseMap();
+            CreateMap<BlCar, Car>().ReverseMap();
             CreateMap<Car, BlCar>()
                 .ForMember(dest => dest.blLocationToAdd, opt => opt.MapFrom(src => src.Location));
-
-
-
-
-
-
+            CreateMap<BlRentalToAdd, Rental>().ReverseMap();
         }
-
     }
-
-
 }

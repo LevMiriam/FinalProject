@@ -9,7 +9,10 @@ namespace Dal.Api
 {
     public interface IDalCustomers
     {
-		public void SignUp(Customer customer);
+        public bool UserExists(string username);
+
+
+        public void SignUp(Customer customer);
 		public Customer LogIn(int id);
 		public bool AddCustomer(Customer customer);
 		public bool DeleteCustomerById(int id);

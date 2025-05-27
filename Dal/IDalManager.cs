@@ -10,7 +10,7 @@ namespace Dal
 	public interface IDalManager
 	{
 		IDalCustomers DalCustomers { get; }
-		IDalOrders DalOrders { get; }
+		IDalRentals DalRentals { get; }
         public IDalCars DalCars { get; }
 
     }

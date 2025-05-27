@@ -10,36 +10,33 @@ using System.Runtime.ConstrainedExecution;
 using Bl.Models;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using Dal;
 
 namespace Bl.Services
 {
     public class BlCarsService : IBlcars
     {
-        private readonly IDalCars _dalCars;
+        private readonly IDalManager _dalManager;
         private readonly IMapper _mapper;
 
-
-        public BlCarsService(IDalCars dalCars, IMapper mapper)
+        public BlCarsService(IDalManager dalManager, IMapper mapper)
         {
-            _dalCars = dalCars;
+            _dalManager = dalManager;
             _mapper = mapper;
-
         }
         public List<BlCarToAdd> GetAllCars()
         {
-            var cars = _dalCars.GetAllCars();   
+            var cars = _dalManager.DalCars.GetAllCars();   
             var carsToAdd = _mapper.Map<List<BlCarToAdd>>(cars);
 
             return carsToAdd;
         }
-
         public Car GetCarById(int id)
         {
-            return _dalCars.GetCarById(id);
+            return _dalManager.DalCars.GetCarById(id);
         }
         public bool AddCar(BlCarToAdd car)
         {
-
             if (car.Id <= 0 || string.IsNullOrWhiteSpace(car.Model)
                 || string.IsNullOrWhiteSpace(car.Year)
                 || string.IsNullOrWhiteSpace(car.Make)
@@ -47,7 +44,6 @@ namespace Bl.Services
                 || car.NumOfSeats < 2
                 || car.LocationId <= 0
                 )
-
             {
                 return false;
             }
@@ -55,16 +51,14 @@ namespace Bl.Services
 
             var newCar = _mapper.Map<Car>(car);
 
-            bool isSuccess = _dalCars.AddCar(newCar);
+            bool isSuccess = _dalManager.DalCars.AddCar(newCar);
             return isSuccess;
 
         }
-
         public bool DeleteCarById(int id)
         {
-            return _dalCars.DeleteCarById(id);
+            return _dalManager.DalCars.DeleteCarById(id);
         }
-
         public bool UpdateCarDetails(BlCarToAdd blCarToAdd)
         {
             if (blCarToAdd == null)
@@ -81,12 +75,12 @@ namespace Bl.Services
 
             var newCar = _mapper.Map<Car>(blCarToAdd);
 
-            return _dalCars.UpdateCar(newCar);
+            return _dalManager.DalCars.UpdateCar(newCar);
         }
 
         public List<BlCar> GetCarsByCity(string city)
         {
-            List<Car> cars = _dalCars.GetCarsByCity(city);
+            List<Car> cars = _dalManager.DalCars.GetCarsByCity(city);
 
             var carsToAdd = _mapper.Map<List<BlCar>>(cars);
 
@@ -94,7 +88,7 @@ namespace Bl.Services
         }
         public List<BlCar> GetCars(string city = null, string neighborhood = null, int? seats = null, string model = null)
         {
-            var cars = _dalCars.GetCars(city, neighborhood, seats, model);
+            var cars = _dalManager.DalCars.GetCars(city, neighborhood, seats, model);
 
             var carsToShow = _mapper.Map<List<BlCar>>(cars);
 

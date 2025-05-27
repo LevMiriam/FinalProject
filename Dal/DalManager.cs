@@ -12,7 +12,7 @@ namespace Dal
 	public class DalManager: IDalManager
 	{
 		public IDalCustomers DalCustomers { get; }
-		public IDalOrders DalOrders { get; }
+		public IDalRentals DalRentals { get; }
 		public IDalCars DalCars { get; }
 
 		private readonly dbClass _context;
@@ -20,7 +20,7 @@ namespace Dal
 		{
 		  _context = new dbClass();
 			DalCustomers = new DalCustomersService(_context);
-			DalOrders = new DalRentalService( _context);
+            DalRentals = new DalRentalService( _context);
             DalCars= new DalCarsService( _context);
 
         }

@@ -36,11 +36,16 @@ namespace Dal.Services
             {
                 _context.Cars.Add(car);
                 int result = _context.SaveChanges();
+                UpdateRates(car);
                 return result > 0;
             }
             catch (DbUpdateException ex)
             {
-                Console.WriteLine(ex.InnerException?.Message);
+                Console.WriteLine($"DbUpdateException: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+                }
                 return false;
             }
             catch (Exception ex)
@@ -50,7 +55,19 @@ namespace Dal.Services
             }
         }
 
+        private void UpdateRates(Car car)
+        {
+            var rate = _context.Rates.Find(car.Id);
+            if (rate != null)
+            {
+                rate.DailyRate = car.BaseRate;  
+                rate.WeeklyRate = car.BaseRate * (decimal) 0.95;  
+                rate.BiWeeklyRate = car.BaseRate * (decimal)0.90;
+                rate.MonthlyRate = car.BaseRate * (decimal)0.85; 
 
+                _context.SaveChanges();
+            }
+        }
         public bool DeleteCarById(int carId)
         {
             var car = _context.Cars.FirstOrDefault(c => c.Id == carId);

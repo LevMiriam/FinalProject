@@ -29,8 +29,6 @@ public partial class dbClass : DbContext
 
     public virtual DbSet<SpecialRate> SpecialRates { get; set; }
 
-    public virtual DbSet<Table> Tables { get; set; }
-
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename='C:\\FinalProject\\Dal\\Data\\CarRentalDatabase.mdf';Integrated Security=True;Connect Timeout=30");
@@ -64,6 +62,10 @@ public partial class dbClass : DbContext
                 .HasForeignKey(d => d.LocationId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Cars_ToLocation");
+
+            entity.HasOne(d => d.Rate).WithMany(p => p.Cars)
+                .HasForeignKey(d => d.RateId)
+                .HasConstraintName("FK_Cars_ToRates");
         });
 
         modelBuilder.Entity<CarRate>(entity =>
@@ -97,6 +99,9 @@ public partial class dbClass : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Phone)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Role)
                 .HasMaxLength(50)
                 .IsUnicode(false);
         });
@@ -150,29 +155,10 @@ public partial class dbClass : DbContext
 
         modelBuilder.Entity<SpecialRate>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__CarRate__3214EC073340D4B6");
+            entity.HasKey(e => e.Id).HasName("PK__tmp_ms_x__3214EC07772F3AF1");
 
             entity.Property(e => e.Id).ValueGeneratedNever();
-            entity.Property(e => e.CarId).HasColumnName("CarID");
-            entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
-
-            entity.HasOne(d => d.Car).WithMany(p => p.SpecialRates)
-                .HasForeignKey(d => d.CarId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_SpecialRates_ToCars");
-        });
-
-        modelBuilder.Entity<Table>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Table__3214EC078422E24E");
-
-            entity.ToTable("Table");
-
-            entity.Property(e => e.Id).ValueGeneratedNever();
-            entity.Property(e => e.BiWeeklyRate).HasColumnType("decimal(10, 2)");
-            entity.Property(e => e.DailyRate).HasColumnType("decimal(10, 2)");
-            entity.Property(e => e.MonthlyRate).HasColumnType("decimal(10, 2)");
-            entity.Property(e => e.WeeklyRate).HasColumnType("decimal(10, 2)");
+            entity.Property(e => e.DiscountPercentage).HasColumnType("decimal(10, 2)");
         });
 
         OnModelCreatingPartial(modelBuilder);

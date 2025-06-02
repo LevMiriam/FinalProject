@@ -25,6 +25,8 @@ namespace Bl
             CreateMap<Car, BlCar>()
                 .ForMember(dest => dest.blLocationToAdd, opt => opt.MapFrom(src => src.Location));
             CreateMap<BlRentalToAdd, Rental>().ReverseMap();
+            CreateMap<BlRate, Rate>().ReverseMap();
+
         }
     }
 }

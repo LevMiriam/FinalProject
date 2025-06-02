@@ -42,13 +42,11 @@ namespace Bl.Services
                 || string.IsNullOrWhiteSpace(car.Make)
                 || string.IsNullOrWhiteSpace(car.LicensePlate)
                 || car.NumOfSeats < 2
-                || car.LocationId <= 0
+                //|| car.LocationId <= 0
                 )
             {
                 return false;
             }
-            var location = _mapper.Map<Location>(car.Location);
-
             var newCar = _mapper.Map<Car>(car);
 
             bool isSuccess = _dalManager.DalCars.AddCar(newCar);

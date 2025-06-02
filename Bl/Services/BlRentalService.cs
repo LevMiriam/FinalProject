@@ -28,11 +28,27 @@ namespace Bl.Services
         public bool CreateRentalOrder(BlRentalToAdd rentalOrder)
         {
             if (rentalOrder == null || rentalOrder.Car == null)
-            {
                 return false;
-            }
+
+            // מניעת הזמנה לתאריכים שכבר היו
+            if (rentalOrder.RentalDate < DateOnly.FromDateTime(DateTime.Today))
+                return false;
+            var carToRental = _dalManager.DalCars.GetCarById(rentalOrder.Car.Id);
             var dalRental = _mapper.Map<Rental>(rentalOrder);
-            return _dalManager.DalRentals.CreateRentalOrder(dalRental);
+            dalRental.Car = carToRental; 
+            bool result = _dalManager.DalRentals.CreateRentalOrder(dalRental);
+            if (result)
+            {
+                // עדכון זמינות הרכב
+                var car = _dalManager.DalCars.GetCarById(rentalOrder.Car.Id);
+                if (car != null)
+                {
+                    car.Available = false; // או IsAvailable לפי השם שלך
+                    _dalManager.DalCars.UpdateCar(car);
+                }
+            }
+
+            return result;
         }
 
         public decimal CalculateRentalPrice(BlRentalToAdd rentalOrder)

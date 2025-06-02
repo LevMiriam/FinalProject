@@ -23,9 +23,10 @@ namespace Bl.Models
 
         public int NumOfSeats { get; set; }
         public decimal BaseRate { get; set; }
-        public int LocationId { get; set; }
+        //public int LocationId { get; set; }
+
         public BlLocationToAdd Location { get; set; } = null!;
-        //public virtual ICollection<Rental> Rentals { get; set; } = new List<Rental>();
+
 
     }
 }

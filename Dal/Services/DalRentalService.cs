@@ -16,11 +16,20 @@ namespace Dal.Services
         {
             _context = context;
         }
+        public bool IsCarAvailable(int carId, DateOnly rentalStartDate, DateOnly rentalEndDate)
+        {
+            return !_context.Rentals
+                .Any(r => r.Car.Id == carId &&
+                           r.RentalDate < rentalEndDate &&
+                           r.ReturnDate > rentalStartDate);
+        }
 
         public bool CreateRentalOrder(Rental rentalOrder)
         {
             try
             {
+                rentalOrder.Customer  = _context.Customers
+                    .FirstOrDefault(c => c.Id == rentalOrder.CustomerId);
                 _context.Rentals.Add(rentalOrder);
                 int result = _context.SaveChanges();
                 return result > 0;

@@ -635,6 +635,10 @@
             "type": "string",
             "format": "date"
           },
+          "customerId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "car": {
             "$ref": "#/components/schemas/BlCar"
           }
@@ -711,15 +715,7 @@
           },
           "rateId": {
             "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "carRates": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/CarRate"
-            },
-            "nullable": true
+            "format": "int32"
           },
           "location": {
             "$ref": "#/components/schemas/Location"
@@ -733,35 +729,6 @@
               "$ref": "#/components/schemas/Rental"
             },
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "CarRate": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "carId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "price": {
-            "type": "number",
-            "format": "double"
-          },
-          "startDate": {
-            "type": "string",
-            "format": "date"
-          },
-          "endDate": {
-            "type": "string",
-            "format": "date"
-          },
-          "car": {
-            "$ref": "#/components/schemas/Car"
           }
         },
         "additionalProperties": false
@@ -837,23 +804,19 @@
           },
           "dailyRate": {
             "type": "number",
-            "format": "double",
-            "nullable": true
+            "format": "double"
           },
           "weeklyRate": {
             "type": "number",
-            "format": "double",
-            "nullable": true
+            "format": "double"
           },
           "biWeeklyRate": {
             "type": "number",
-            "format": "double",
-            "nullable": true
+            "format": "double"
           },
           "monthlyRate": {
             "type": "number",
-            "format": "double",
-            "nullable": true
+            "format": "double"
           },
           "cars": {
             "type": "array",

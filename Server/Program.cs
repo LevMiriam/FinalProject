@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using Server;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddControllers();
 

@@ -24,7 +24,6 @@ namespace Bl.Services
             _dalManager = dalManager;
             _mapper = mapper;
 		}
-
         public bool CreateRentalOrder(BlRentalToAdd rentalOrder)
         {
             if (rentalOrder == null || rentalOrder.Car == null)
@@ -33,26 +32,25 @@ namespace Bl.Services
             // מניעת הזמנה לתאריכים שכבר היו
             if (rentalOrder.RentalDate < DateOnly.FromDateTime(DateTime.Today))
                 return false;
+
+            // בדוק אם הרכב פנוי בטווח התאריכים
             var carToRental = _dalManager.DalCars.GetCarById(rentalOrder.Car.Id);
+            bool isAvailable = _dalManager.DalRentals.IsCarAvailable(carToRental.Id, rentalOrder.RentalDate, rentalOrder.ReturnDate);
+            if (!isAvailable)
+                return false;
+
             var dalRental = _mapper.Map<Rental>(rentalOrder);
-            dalRental.Car = carToRental; 
+            dalRental.Car = carToRental;
             bool result = _dalManager.DalRentals.CreateRentalOrder(dalRental);
-            if (result)
-            {
-                // עדכון זמינות הרכב
-                var car = _dalManager.DalCars.GetCarById(rentalOrder.Car.Id);
-                if (car != null)
-                {
-                    car.Available = false; // או IsAvailable לפי השם שלך
-                    _dalManager.DalCars.UpdateCar(car);
-                }
-            }
 
             return result;
         }
 
+
         public decimal CalculateRentalPrice(BlRentalToAdd rentalOrder)
         {
+            if (!CreateRentalOrder(rentalOrder))
+                return 0;
             // שליפת תאריכי ההשכרה
             DateOnly startDate = rentalOrder.RentalDate;
             DateOnly endDate = rentalOrder.ReturnDate;
@@ -90,19 +88,19 @@ namespace Bl.Services
 
                 if (remainingDays <= 7)
                 {
-                    totalPrice += remainingDays * (rates.DailyRate ?? 0);
+                    totalPrice += remainingDays * (rates.DailyRate);
                 }
                 else if (remainingDays <= 14)
                 {
-                    totalPrice += remainingDays * (rates.WeeklyRate ?? 0) ;
+                    totalPrice += remainingDays * (rates.WeeklyRate) ;
                 }
                 else if (remainingDays <= 30)
                 {
-                    totalPrice += remainingDays * (rates.BiWeeklyRate ?? 0) ;
+                    totalPrice += remainingDays * (rates.BiWeeklyRate) ;
                 }
                 else
                 {
-                    totalPrice += remainingDays * (rates.MonthlyRate ?? 0);
+                    totalPrice += remainingDays * (rates.MonthlyRate);
                 }
             }
 

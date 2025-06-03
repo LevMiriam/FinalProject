@@ -23,14 +23,11 @@ public partial class Car
 
     public decimal BaseRate { get; set; }
 
-    public int? RateId { get; set; }
-
-    public virtual ICollection<CarRate> CarRates { get; set; } = new List<CarRate>();
+    public int RateId { get; set; }
 
     public virtual Location Location { get; set; } = null!;
 
-    public virtual Rate? Rate { get; set; }
+    public virtual Rate Rate { get; set; } = null!;
 
     public virtual ICollection<Rental> Rentals { get; set; } = new List<Rental>();
-
 }

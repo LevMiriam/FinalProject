@@ -53,7 +53,7 @@ namespace Server.Controllers
                 return StatusCode(500, "Internal server error: BL is null.");
 
             // מניעת הזמנה לתאריכים שכבר היו
-            if (rentalOrder.RentalDate < DateOnly.FromDateTime(DateTime.Today))
+             if (rentalOrder.RentalDate < DateOnly.FromDateTime(DateTime.Today))
                 return BadRequest("Cannot order for a past date.");
 
             bool result = _blManager.BlRental.CreateRentalOrder(rentalOrder);

@@ -17,8 +17,6 @@ public partial class dbClass : DbContext
 
     public virtual DbSet<Car> Cars { get; set; }
 
-    public virtual DbSet<CarRate> CarRates { get; set; }
-
     public virtual DbSet<Customer> Customers { get; set; }
 
     public virtual DbSet<Location> Locations { get; set; }
@@ -37,7 +35,7 @@ public partial class dbClass : DbContext
     {
         modelBuilder.Entity<Car>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Cars__68A0340E64A232C7");
+            entity.HasKey(e => e.Id).HasName("PK__tmp_ms_x__3214EC276C5FD1BF");
 
             entity.Property(e => e.Id)
                 .ValueGeneratedNever()
@@ -65,23 +63,8 @@ public partial class dbClass : DbContext
 
             entity.HasOne(d => d.Rate).WithMany(p => p.Cars)
                 .HasForeignKey(d => d.RateId)
-                .HasConstraintName("FK_Cars_ToRates");
-        });
-
-        modelBuilder.Entity<CarRate>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__CarRate__3214EC07D2BC2BFC");
-
-            entity.ToTable("CarRate");
-
-            entity.Property(e => e.Id).ValueGeneratedNever();
-            entity.Property(e => e.CarId).HasColumnName("CarID");
-            entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
-
-            entity.HasOne(d => d.Car).WithMany(p => p.CarRates)
-                .HasForeignKey(d => d.CarId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Rates_ToCars");
+                .HasConstraintName("FK_Cars_ToRates");
         });
 
         modelBuilder.Entity<Customer>(entity =>
@@ -108,7 +91,7 @@ public partial class dbClass : DbContext
 
         modelBuilder.Entity<Location>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Location__3214EC07094280EB");
+            entity.HasKey(e => e.Id).HasName("PK__tmp_ms_x__3214EC0772174A09");
 
             entity.ToTable("Location");
 
@@ -134,11 +117,9 @@ public partial class dbClass : DbContext
 
         modelBuilder.Entity<Rental>(entity =>
         {
-            entity.HasKey(e => e.RentalId).HasName("PK__Rentals__970059632478A398");
+            entity.HasKey(e => e.RentalId).HasName("PK__tmp_ms_x__97005963506E220D");
 
-            entity.Property(e => e.RentalId)
-                .ValueGeneratedNever()
-                .HasColumnName("RentalID");
+            entity.Property(e => e.RentalId).HasColumnName("RentalID");
             entity.Property(e => e.CarId).HasColumnName("CarID");
             entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
 

@@ -12,5 +12,7 @@ namespace Dal.Api
         public bool CreateRentalOrder(Rental rentalOrder);
         public Rate GetRatesForCar(int carId);
         public SpecialRate GetSpecialRateForCarAndDateRange(int carId, DateOnly startDate, DateOnly endDate);
+        public bool IsCarAvailable(int carId, DateOnly rentalStartDate, DateOnly rentalEndDate);
+
     }
 }

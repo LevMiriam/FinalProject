@@ -315,5 +315,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.RentalsController",
+    "Method": "GetUnavailableDates",
+    "RelativePath": "api/Rentals/unavailable-dates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

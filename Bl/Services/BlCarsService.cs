@@ -33,7 +33,9 @@ namespace Bl.Services
         }
         public Car GetCarById(int id)
         {
-            return _dalManager.DalCars.GetCarById(id);
+            var carTask = _dalManager.DalCars.GetCarByIdAsync(id);
+            carTask.Wait(); // Wait for the task to complete
+            return carTask.Result; // Access the result of the completed task
         }
         public bool AddCar(BlCarToAdd car)
         {

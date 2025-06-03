@@ -22,10 +22,15 @@ namespace Dal.Services
             return _context.Cars.Include(c => c.Location).ToList();
         }
 
-        public Car GetCarById(int id)
+        //public Car GetCarById(int id)
+        //{
+        //    var car = _context.Cars.FirstOrDefault(c => c.Id == id);
+        //    return car == null ? null : car;
+        //}
+
+        public async Task<Car?> GetCarByIdAsync(int id)
         {
-            var car = _context.Cars.FirstOrDefault(c => c.Id == id);
-            return car == null ? null : car;
+            return await _context.Cars.FirstOrDefaultAsync(c => c.Id == id);
         }
 
         public bool AddCar(Car car)

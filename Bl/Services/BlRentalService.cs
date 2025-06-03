@@ -10,46 +10,51 @@ using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.ConstrainedExecution;
+using System.Text;
+using System.Threading.Tasks;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Bl.Services
 {
     public class BlRentalService : IBlRentals
     {
 
-		private readonly IDalManager _dalManager;
+        private readonly IDalManager _dalManager;
         private readonly IMapper _mapper;
 
         public BlRentalService(IDalManager dalManager, IMapper mapper)
-		{
+        {
             _dalManager = dalManager;
             _mapper = mapper;
-		}
-        public bool CreateRentalOrder(BlRentalToAdd rentalOrder)
+        }
+    
+
+        public async Task<bool> CreateRentalOrderAsync(BlRentalToAdd rentalOrder)
         {
             if (rentalOrder == null || rentalOrder.Car == null)
                 return false;
-
-            // מניעת הזמנה לתאריכים שכבר היו
-            if (rentalOrder.RentalDate < DateOnly.FromDateTime(DateTime.Today))
-                return false;
-
-            // בדוק אם הרכב פנוי בטווח התאריכים
-            var carToRental = _dalManager.DalCars.GetCarById(rentalOrder.Car.Id);
-            bool isAvailable = _dalManager.DalRentals.IsCarAvailable(carToRental.Id, rentalOrder.RentalDate, rentalOrder.ReturnDate);
+            await ValidateRentalAndReturnDatesAsync(rentalOrder.RentalDate, rentalOrder.ReturnDate);
+            // בדוק אם הרכב פנוי
+            var carToRental = await _dalManager.DalCars.GetCarByIdAsync(rentalOrder.Car.Id);
+            bool isAvailable = await _dalManager.DalRentals.IsCarAvailableAsync(carToRental.Id, rentalOrder.RentalDate, rentalOrder.ReturnDate);
             if (!isAvailable)
-                return false;
-
+                throw new Exception($"The car is not available on these dates.");
+            // צור את ההזמנה
             var dalRental = _mapper.Map<Rental>(rentalOrder);
             dalRental.Car = carToRental;
-            bool result = _dalManager.DalRentals.CreateRentalOrder(dalRental);
+            bool result = await _dalManager.DalRentals.CreateRentalOrderAsync(dalRental);
 
             return result;
         }
 
 
-        public decimal CalculateRentalPrice(BlRentalToAdd rentalOrder)
+
+        public async Task<decimal> CalculateRentalPriceAsync(BlRentalToAdd rentalOrder)
         {
-            if (!CreateRentalOrder(rentalOrder))
+            var result = await CreateRentalOrderAsync(rentalOrder);
+            if (!result)
                 return 0;
             // שליפת תאריכי ההשכרה
             DateOnly startDate = rentalOrder.RentalDate;
@@ -92,11 +97,11 @@ namespace Bl.Services
                 }
                 else if (remainingDays <= 14)
                 {
-                    totalPrice += remainingDays * (rates.WeeklyRate) ;
+                    totalPrice += remainingDays * (rates.WeeklyRate);
                 }
                 else if (remainingDays <= 30)
                 {
-                    totalPrice += remainingDays * (rates.BiWeeklyRate) ;
+                    totalPrice += remainingDays * (rates.BiWeeklyRate);
                 }
                 else
                 {
@@ -107,6 +112,100 @@ namespace Bl.Services
             return totalPrice;
         }
 
+        public async Task<List<BlUnavailableDate>> GetUnavailableDatesAsync(int year, int month)
+        {
+            string json = await _dalManager.DalRentals.FetchCalendarDataAsync(year, month);
+            var root = JsonSerializer.Deserialize<BlCalenderModel.HebcalResponse>(json);
+
+            var now = DateTime.Now;
+
+            var unavailableDates = root.Items
+                .Where(item =>
+                {
+                    if (!DateTime.TryParse(item.Date, out var parsedDate))
+                        return false;
+                    if (item.Title.Contains("Erev", StringComparison.OrdinalIgnoreCase))
+                    {
+                        var limitTime = parsedDate.AddMinutes(-10);
+                        if (now < limitTime)
+                            return false;
+                    }
+                    // אם זה יום שישי עם קטגוריה "candles" - בדוק את זמן ההדלקה והסר אם אפשר להזמין
+                    if (item.Category == "candles")
+                    {
+                        var limitTime = parsedDate.AddMinutes(-10);
+                        if (now < limitTime)
+                            return false; // עדיין אפשר להזמין, אז אל תסמן כחסום
+                    }
+                    // בדיקה רגילה לשבת וחגים
+                    return (item.Category == "holiday" || item.Category == "candles") &&
+                           parsedDate.Date >= now.Date;
+                })
+                .Select(item => new BlUnavailableDate
+                {
+                    Date = item.Date,
+                    Reason = item.Title
+                })
+                .ToList();
+            var daysInMonth = DateTime.DaysInMonth(year, month);
+            for (int day = 1; day <= daysInMonth; day++)
+            {
+                var date = new DateTime(year, month, day);
+                if (date.DayOfWeek == DayOfWeek.Saturday)
+                {
+                    var dateOnlyStr = date.ToString("yyyy-MM-dd");
+                    bool alreadyExists = unavailableDates.Any(d => d.Date == dateOnlyStr);
+                    if (!alreadyExists)
+                    {
+                        unavailableDates.Add(new BlUnavailableDate
+                        {
+                            Date = dateOnlyStr,
+                            Reason = "שבת"
+                        });
+                    }
+                }
+            }
+            return unavailableDates;
+        }
+
+        public async Task ValidateRentalAndReturnDatesAsync(DateOnly rentalDate, DateOnly returnDate)
+        {
+            if (rentalDate < DateOnly.FromDateTime(DateTime.Today))
+                throw new Exception("Cannot rent on a past date.");
+
+            if (returnDate < rentalDate)
+                throw new Exception("Return date cannot be before rental date.");
+
+            // איחוד כל התאריכים שיש לבדוק מתוך טווח ההשכרה וההחזרה
+            List<BlUnavailableDate> unavailableDates = new();
+
+            // אם זה אותו חודש – מספיק קריאה אחת
+            if (rentalDate.Month == returnDate.Month && rentalDate.Year == returnDate.Year)
+            {
+                unavailableDates = await GetUnavailableDatesAsync(rentalDate.Year, rentalDate.Month);
+            }
+            else
+            {
+                // במקרה של חודש שונה – מאחדים תוצאות משני חודשים
+                var dates1 = await GetUnavailableDatesAsync(rentalDate.Year, rentalDate.Month);
+                var dates2 = await GetUnavailableDatesAsync(returnDate.Year, returnDate.Month);
+                unavailableDates = dates1.Concat(dates2).ToList();
+            }
+
+            // בדיקה לכל תאריך בטווח ההשכרה עד ההחזרה (כולל)
+            var rentalBlocked = unavailableDates.FirstOrDefault(d =>
+            DateOnly.FromDateTime(DateTime.Parse(d.Date)) == rentalDate);
+
+            if (rentalBlocked != null)
+                throw new Exception($"Date {rentalBlocked.Date} is not allowed – {rentalBlocked.Reason}");
+
+            var returnBlocked = unavailableDates.FirstOrDefault(d =>
+                DateOnly.FromDateTime(DateTime.Parse(d.Date)) == returnDate);
+
+            if (returnBlocked != null)
+                throw new Exception($"Date {returnBlocked.Date} is not allowed – {returnBlocked.Reason}");
+        }
+
+
     }
 }
- 

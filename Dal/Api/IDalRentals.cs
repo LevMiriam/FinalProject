@@ -9,10 +9,16 @@ namespace Dal.Api
 {
     public interface IDalRentals
     {
-        public bool CreateRentalOrder(Rental rentalOrder);
+        //public bool CreateRentalOrder(Rental rentalOrder);
+        public Task<bool> CreateRentalOrderAsync(Rental rentalOrder);
+
         public Rate GetRatesForCar(int carId);
         public SpecialRate GetSpecialRateForCarAndDateRange(int carId, DateOnly startDate, DateOnly endDate);
-        public bool IsCarAvailable(int carId, DateOnly rentalStartDate, DateOnly rentalEndDate);
+        //public bool IsCarAvailable(int carId, DateOnly rentalStartDate, DateOnly rentalEndDate);
+        public Task<bool> IsCarAvailableAsync(int carId, DateOnly rentalStartDate, DateOnly rentalEndDate);
+
+        public Task<string> FetchCalendarDataAsync(int year, int month);
+
 
     }
 }

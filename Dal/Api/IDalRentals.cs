@@ -19,6 +19,15 @@ namespace Dal.Api
 
         public Task<string> FetchCalendarDataAsync(int year, int month);
 
+        public bool Charge(decimal amount);
+        public void SendInvoice(string toEmail, decimal amount);
+        public List<Rental> GetActiveRentalsToday();
+        public List<Rental> GetRentalsByUserId(int userId);
+
+
+
+
+
 
     }
 }

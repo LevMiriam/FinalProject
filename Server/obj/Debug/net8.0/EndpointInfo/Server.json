@@ -511,37 +511,6 @@
         }
       }
     },
-    "/api/Rentals/calculate-price": {
-      "post": {
-        "tags": [
-          "Rentals"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/BlRentalToAdd"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/BlRentalToAdd"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/BlRentalToAdd"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Rentals/unavailable-dates": {
       "get": {
         "tags": [
@@ -565,6 +534,37 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rentals/pay": {
+      "post": {
+        "tags": [
+          "Rentals"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlPaymentRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlPaymentRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlPaymentRequest"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -654,6 +654,20 @@
         },
         "additionalProperties": false
       },
+      "BlPaymentRequest": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "BlRentalToAdd": {
         "type": "object",
         "properties": {
@@ -668,6 +682,10 @@
           "customerId": {
             "type": "integer",
             "format": "int32"
+          },
+          "customerEmail": {
+            "type": "string",
+            "nullable": true
           },
           "car": {
             "$ref": "#/components/schemas/BlCar"

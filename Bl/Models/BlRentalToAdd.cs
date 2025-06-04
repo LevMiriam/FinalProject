@@ -14,6 +14,7 @@ namespace Bl.Models
         public DateOnly ReturnDate { get; set; }
 
         public int customerId { get; set; }
+        public string customerEmail { get; set; }
         public BlCar Car { get; set; } = null!;
     }
 }

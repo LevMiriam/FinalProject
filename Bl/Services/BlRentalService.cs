@@ -31,10 +31,10 @@ namespace Bl.Services
         }
     
 
-        public async Task<bool> CreateRentalOrderAsync(BlRentalToAdd rentalOrder)
+        public async Task<string> CreateRentalOrderAsync(BlRentalToAdd rentalOrder)
         {
             if (rentalOrder == null || rentalOrder.Car == null)
-                return false;
+                return "Invalid rental order data.";
             await ValidateRentalAndReturnDatesAsync(rentalOrder.RentalDate, rentalOrder.ReturnDate);
             // בדוק אם הרכב פנוי
             var carToRental = await _dalManager.DalCars.GetCarByIdAsync(rentalOrder.Car.Id);
@@ -46,16 +46,19 @@ namespace Bl.Services
             dalRental.Car = carToRental;
             bool result = await _dalManager.DalRentals.CreateRentalOrderAsync(dalRental);
 
-            return result;
+            if (!result)
+                return "Failed to create rental order.";
+
+            return $"Rental order created successfully";
         }
 
 
 
         public async Task<decimal> CalculateRentalPriceAsync(BlRentalToAdd rentalOrder)
         {
-            var result = await CreateRentalOrderAsync(rentalOrder);
-            if (!result)
-                return 0;
+            //var result = await CreateRentalOrderAsync(rentalOrder);
+            //if (!result)
+            //    return 0;
             // שליפת תאריכי ההשכרה
             DateOnly startDate = rentalOrder.RentalDate;
             DateOnly endDate = rentalOrder.ReturnDate;
@@ -160,7 +163,7 @@ namespace Bl.Services
                         unavailableDates.Add(new BlUnavailableDate
                         {
                             Date = dateOnlyStr,
-                            Reason = "שבת"
+                            Reason = "Shabbat"
                         });
                     }
                 }
@@ -204,6 +207,28 @@ namespace Bl.Services
 
             if (returnBlocked != null)
                 throw new Exception($"Date {returnBlocked.Date} is not allowed – {returnBlocked.Reason}");
+        }
+
+        public bool ProcessPayment(string customerEmail, decimal amount)
+        {
+            bool paymentSuccess = _dalManager.DalRentals.Charge(amount);
+            if (paymentSuccess)
+            {
+                _dalManager.DalRentals.SendInvoice(customerEmail, amount);
+                return true;
+            }
+            return false;
+        }
+
+        public List<Rental> GetUserRentalHistory(int userId)
+        {
+            return _dalManager.DalRentals.GetRentalsByUserId(userId);
+            ;
+        }
+
+        public List<Rental> GetActiveRentalsToday()
+        {
+            return _dalManager.DalRentals.GetActiveRentalsToday();
         }
 
 

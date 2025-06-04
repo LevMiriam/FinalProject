@@ -135,6 +135,34 @@ namespace Dal.Services
 
             return await response.Content.ReadAsStringAsync();
         }
+
+        public bool Charge(decimal amount)
+        {
+            // כאן אמורה להיות קריאה ל-API חיצוני של חברת סליקה
+            Console.WriteLine($"Charging {amount}₪ via mock gateway...");
+            return true;
+        }
+
+        public void SendInvoice(string toEmail, decimal amount)
+        {
+            string subject = "חשבונית עבור תשלום";
+            string body = $"שלום,\n\nקיבלנו את התשלום שלך בסך {amount}₪. תודה רבה!\n\nבברכה,\nצוות השכרת רכבים";
+            Console.WriteLine($"Sending email to {toEmail}:\nSubject: {subject}\nBody:\n{body}");
+            // בפועל כאן תשתמשי ב-SMTP או שירות כמו SendGrid
+        }
+
+        public List<Rental> GetRentalsByUserId(int userId)
+        {
+            return _context.Rentals.Where(r => r.CustomerId == userId).ToList();
+        }
+
+        public List<Rental> GetActiveRentalsToday()
+        {
+            var today = DateOnly.FromDateTime(DateTime.Today);
+            return _context.Rentals
+                .Where(r => r.RentalDate <= today && r.RentalDate >= today)
+                .ToList();
+        }
     }
 }
 

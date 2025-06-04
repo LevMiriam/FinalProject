@@ -286,8 +286,8 @@
   },
   {
     "ContainingType": "Server.Controllers.RentalsController",
-    "Method": "CalculateRentalPrice",
-    "RelativePath": "api/Rentals/calculate-price",
+    "Method": "CreateRentalOrder",
+    "RelativePath": "api/Rentals/order",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -302,15 +302,15 @@
   },
   {
     "ContainingType": "Server.Controllers.RentalsController",
-    "Method": "CreateRentalOrder",
-    "RelativePath": "api/Rentals/order",
+    "Method": "Pay",
+    "RelativePath": "api/Rentals/pay",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "rentalOrder",
-        "Type": "Bl.Models.BlRentalToAdd",
+        "Name": "request",
+        "Type": "Bl.Models.BlPaymentRequest",
         "IsRequired": true
       }
     ],

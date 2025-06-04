@@ -58,12 +58,10 @@ public partial class dbClass : DbContext
 
             entity.HasOne(d => d.Location).WithMany(p => p.Cars)
                 .HasForeignKey(d => d.LocationId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Cars_ToLocation");
 
             entity.HasOne(d => d.Rate).WithMany(p => p.Cars)
                 .HasForeignKey(d => d.RateId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Cars_ToRates");
         });
 
@@ -91,7 +89,7 @@ public partial class dbClass : DbContext
 
         modelBuilder.Entity<Location>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Location__3214EC07094280EB");
+            entity.HasKey(e => e.Id).HasName("PK__tmp_ms_x__3214EC0772174A09");
 
             entity.ToTable("Location");
 
@@ -117,22 +115,18 @@ public partial class dbClass : DbContext
 
         modelBuilder.Entity<Rental>(entity =>
         {
-            entity.HasKey(e => e.RentalId).HasName("PK__Rentals__970059632478A398");
+            entity.HasKey(e => e.RentalId).HasName("PK__tmp_ms_x__97005963506E220D");
 
-            entity.Property(e => e.RentalId)
-                .ValueGeneratedNever()
-                .HasColumnName("RentalID");
+            entity.Property(e => e.RentalId).HasColumnName("RentalID");
             entity.Property(e => e.CarId).HasColumnName("CarID");
             entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
 
             entity.HasOne(d => d.Car).WithMany(p => p.Rentals)
                 .HasForeignKey(d => d.CarId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Rentals_ToCars");
 
             entity.HasOne(d => d.Customer).WithMany(p => p.Rentals)
                 .HasForeignKey(d => d.CustomerId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Rentals_ToCustomer");
         });
 

@@ -286,6 +286,32 @@
   },
   {
     "ContainingType": "Server.Controllers.RentalsController",
+    "Method": "GetActiveRentalsToday",
+    "RelativePath": "api/Rentals/active-today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.RentalsController",
+    "Method": "GetRentalHistory",
+    "RelativePath": "api/Rentals/history/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.RentalsController",
     "Method": "CreateRentalOrder",
     "RelativePath": "api/Rentals/order",
     "HttpMethod": "POST",

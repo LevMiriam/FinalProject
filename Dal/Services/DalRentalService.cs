@@ -4,7 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -146,9 +148,70 @@ namespace Dal.Services
         public void SendInvoice(string toEmail, decimal amount)
         {
             string subject = "חשבונית עבור תשלום";
-            string body = $"שלום,\n\nקיבלנו את התשלום שלך בסך {amount}₪. תודה רבה!\n\nבברכה,\nצוות השכרת רכבים";
-            Console.WriteLine($"Sending email to {toEmail}:\nSubject: {subject}\nBody:\n{body}");
-            // בפועל כאן תשתמשי ב-SMTP או שירות כמו SendGrid
+            string body = $@"
+<html dir='rtl'>
+  <body style='font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px; color: #333;'>
+    <div style='max-width: 600px; margin: auto; background-color: #ffffff; border-radius: 10px; padding: 30px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: right;'>
+      <div margin-bottom: 30px;'>
+        <img src='https://www.cartube.co.il/car-photos/68-%D7%94%D7%95%D7%A0%D7%93%D7%94/996-%D7%94%D7%95%D7%A0%D7%93%D7%94-%D7%90%D7%99%D7%A0%D7%A1%D7%99%D7%99%D7%98/997-2012-%D7%94%D7%95%D7%A0%D7%93%D7%94-%D7%90%D7%99%D7%A0%D7%A1%D7%99%D7%99%D7%98#&gid=1&pid=1' alt='לוגו' width='60' style='margin-bottom: 10px;' />
+        <h2 style='margin: 0; color: #2c3e50;'>,שלום רב</h2>
+      </div>
+
+      <p style=""
+    font-size: 16px; 
+    line-height: 1.6; 
+    direction: rtl; 
+    unicode-bidi: embed;
+"">
+  קיבלנו את התשלום שלך על סך 
+  <strong style=""color: #27ae60;"">{amount} ₪</strong>.<br/>
+  אנו מודים לך על הבחירה בשירות שלנו!
+</p>
+
+      <div style='margin: 30px 0; text-align: center;'>
+        <a href='https://your-website.com' 
+           style='display: inline-block; padding: 12px 24px; background-color: #27ae60; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;'>
+          למעבר לאתר
+        </a>
+      </div>
+
+      <hr style='border: none; border-top: 1px solid #ddd; margin: 30px 0;' />
+
+      <p style='font-size: 13px; color: #888; text-align: center;'>
+         Way2Go צוות<br/>
+        <a href='mailto:way2gocomp@gmail.com' style='color: #888;'>Way2Go@gmail.com</a>
+      </p>
+    </div>
+  </body>
+</html>";
+
+            // הגדרות החשבון השולח
+            string fromEmail = "way2gocomp@gmail.com"; // שימי כאן את האימייל של העסק
+            string password = "kgos ymsv yioz hiog"; // לא הסיסמה הרגילה – הסבר למטה!
+
+            try
+            {
+                var smtpClient = new SmtpClient("smtp.gmail.com")
+                {
+                    Port = 587,
+                    Credentials = new NetworkCredential(fromEmail, password),
+                    EnableSsl = true,
+                };
+
+                var mailMessage = new MailMessage();
+                mailMessage.From = new MailAddress(fromEmail, "Way2Go");
+                mailMessage.To.Add(toEmail);
+                mailMessage.Subject = subject;
+                mailMessage.Body = body;
+                mailMessage.IsBodyHtml = true;
+                smtpClient.Send(mailMessage);
+
+                Console.WriteLine("Email sent successfully to " + toEmail);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error sending email: " + ex.Message);
+            }
         }
 
         public List<Rental> GetRentalsByUserId(int userId)

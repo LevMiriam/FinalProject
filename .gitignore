@@ -25,6 +25,8 @@ target/
 *.sublime-workspace
 *.sublime-project
 .vscode/
+.vs
+.vs/
 
 # Logs
 *.log

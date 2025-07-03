@@ -11,7 +11,6 @@ namespace Dal.Api
     {
         //public bool CreateRentalOrder(Rental rentalOrder);
         public Task<bool> CreateRentalOrderAsync(Rental rentalOrder);
-
         public Rate GetRatesForCar(int carId);
         public SpecialRate GetSpecialRateForCarAndDateRange(int carId, DateOnly startDate, DateOnly endDate);
         //public bool IsCarAvailable(int carId, DateOnly rentalStartDate, DateOnly rentalEndDate);
@@ -24,8 +23,7 @@ namespace Dal.Api
         public List<Rental> GetActiveRentalsToday();
         public List<Rental> GetRentalsByUserId(int userId);
 
-
-
+        public Task<Dictionary<int, bool>> GetCarsAvailabilityAsync(DateOnly start, DateOnly end);
 
 
 

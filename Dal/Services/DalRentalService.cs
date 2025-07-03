@@ -26,12 +26,12 @@ namespace Dal.Services
         //                   r.RentalDate < rentalEndDate &&
         //                   r.ReturnDate > rentalStartDate);
         //}
-        public async Task<bool> IsCarAvailableAsync(int carId, DateOnly rentalStartDate, DateOnly rentalEndDate)
+        public async Task<bool> IsCarAvailableAsync(int carId, DateOnly requestedStartDate, DateOnly requestedEndDate)
         {
             return !await _context.Rentals
-                .AnyAsync(r => r.Car.Id == carId &&
-                               r.RentalDate < rentalEndDate &&
-                               r.ReturnDate > rentalStartDate);
+                .AnyAsync(r => r.CarId == carId &&
+                               r.RentalDate <= requestedEndDate &&
+                               r.ReturnDate >= requestedStartDate);
         }
 
         //public bool CreateRentalOrder(Rental rentalOrder)
@@ -56,12 +56,24 @@ namespace Dal.Services
         //    }
         //}
 
+
         public async Task<bool> CreateRentalOrderAsync(Rental rentalOrder)
         {
             try
             {
                 rentalOrder.Customer = await _context.Customers
                     .FirstOrDefaultAsync(c => c.Id == rentalOrder.CustomerId);
+
+                // בדוק אם הרכב זמין לתאריכים שנבחרו
+                bool isCarAvailable = await _context.Rentals
+                    .AnyAsync(r => r.CarId == rentalOrder.CarId &&
+                                   r.RentalDate < rentalOrder.ReturnDate &&
+                                   rentalOrder.RentalDate < r.ReturnDate);
+
+                if (isCarAvailable)
+                {
+                    throw new Exception("The car is not available for the selected dates.");
+                }
 
                 await _context.Rentals.AddAsync(rentalOrder);
 
@@ -80,7 +92,6 @@ namespace Dal.Services
                 return false;
             }
         }
-        // DAL: Get Special Rate
         public SpecialRate GetSpecialRateForCarAndDateRange(int carId, DateOnly startDate, DateOnly endDate)
         {
             return _context.SpecialRates
@@ -88,6 +99,7 @@ namespace Dal.Services
                                         rate.StartDate <= startDate &&
                                         rate.EndDate >= endDate);
         }
+
 
         // DAL: Get Rates
         public Rate GetRatesForCar(int carId)
@@ -162,6 +174,22 @@ namespace Dal.Services
             return _context.Rentals
                 .Where(r => r.RentalDate <= today && r.RentalDate >= today)
                 .ToList();
+        }
+        public async Task<Dictionary<int, bool>> GetCarsAvailabilityAsync(DateOnly start, DateOnly end)
+        {
+            var overlappingRentals = await _context.Rentals
+                .Where(r => r.RentalDate <= end && r.ReturnDate >= start)
+                .Select(r => r.CarId)
+                .ToListAsync();
+
+            var allCarIds = await _context.Cars.Select(c => c.Id).ToListAsync();
+
+            var availability = new Dictionary<int, bool>();
+            foreach (var carId in allCarIds)
+            {
+                availability[carId] = !overlappingRentals.Contains(carId);
+            }
+            return availability;
         }
     }
 }

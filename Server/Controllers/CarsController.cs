@@ -26,11 +26,10 @@ namespace Server.Controllers
         {
             return Ok(_blManager.BlCars.GetCarById(id));
         }
-
         [HttpPost("AddCar")]
-        public IActionResult AddCar(BlCarToAdd car)
+        public async Task<IActionResult> AddCar([FromForm] CarFormDto carForm)
         {
-            bool success = _blManager.BlCars.AddCar(car);
+            bool success = await _blManager.BlCars.AddCarAsync(carForm);
             return success ? Ok("Registered successfully") : BadRequest("Registration failed");
         }
 
@@ -42,26 +41,48 @@ namespace Server.Controllers
                 : BadRequest("The delete failed.");
         }
 
+        //[HttpPut("updateCar/{id}")]
+        //public IActionResult UpdateCar(int id, [FromBody] BlCarToAdd updateCar)
+        //{
+        //    if (updateCar == null)
+        //    {
+        //        return BadRequest("The updateCar field is required.");
+        //    }
+
+        //    if (id != updateCar.Id)
+        //    {
+        //        return BadRequest("Car ID mismatch.");
+        //    }
+
+        //    try
+        //    {
+        //        bool success = _blManager.BlCars.UpdateCarDetails(updateCar);
+        //        if (success)
+        //        {
+        //            return Ok("Car details updated successfully.");
+        //        }
+
+        //        return NotFound("Car not found.");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, $"An error occurred: {ex.Message}");
+        //    }
+        //}
         [HttpPut("updateCar/{id}")]
-        public IActionResult UpdateCar(int id, [FromBody] BlCarToAdd updateCar)
+        public async Task<IActionResult> UpdateCar(int id, [FromForm] CarFormDto updateCar)
         {
             if (updateCar == null)
-            {
                 return BadRequest("The updateCar field is required.");
-            }
 
             if (id != updateCar.Id)
-            {
                 return BadRequest("Car ID mismatch.");
-            }
 
             try
             {
-                bool success = _blManager.BlCars.UpdateCarDetails(updateCar);
+                bool success = await _blManager.BlCars.UpdateCarDetailsAsync(updateCar);
                 if (success)
-                {
                     return Ok("Car details updated successfully.");
-                }
 
                 return NotFound("Car not found.");
             }
@@ -70,7 +91,6 @@ namespace Server.Controllers
                 return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
-
         //public IActionResult GetCarCountByCity(string city)
         //{
         //    if (string.IsNullOrEmpty(city))

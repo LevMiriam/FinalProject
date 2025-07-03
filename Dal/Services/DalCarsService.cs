@@ -60,12 +60,12 @@ namespace Dal.Services
                 };
 
                 _context.Rates.Add(rate);
-                _context.SaveChanges(); 
+                _context.SaveChanges();
 
                 car.RateId = rate.Id;
                 _context.Cars.Add(car);
 
-                int result = _context.SaveChanges(); 
+                int result = _context.SaveChanges();
 
                 if (result <= 0)
                 {
@@ -97,6 +97,7 @@ namespace Dal.Services
 
 
 
+
         public bool DeleteCarById(int carId)
         {
             var car = _context.Cars.FirstOrDefault(c => c.Id == carId);
@@ -116,12 +117,16 @@ namespace Dal.Services
                     return false;
                 }
 
-                existingCar.Id = car.Id;
                 existingCar.Make = car.Make;
                 existingCar.Model = car.Model;
                 existingCar.Year = car.Year;
                 existingCar.LicensePlate = car.LicensePlate;
                 existingCar.Available = car.Available;
+                existingCar.NumOfSeats = car.NumOfSeats;
+                existingCar.BaseRate = car.BaseRate;
+                existingCar.LocationId = car.LocationId;
+                if (car.Image != null && car.Image.Length > 0)
+                    existingCar.Image = car.Image;
 
                 return _context.SaveChanges() > 0;
             }

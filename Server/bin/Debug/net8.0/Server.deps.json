@@ -1141,7 +1141,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "Bl.dll": {}
+          "Bl.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Dal/1.0.0": {
@@ -1153,7 +1156,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "Dal.dll": {}
+          "Dal.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

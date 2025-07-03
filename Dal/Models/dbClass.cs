@@ -58,12 +58,10 @@ public partial class dbClass : DbContext
 
             entity.HasOne(d => d.Location).WithMany(p => p.Cars)
                 .HasForeignKey(d => d.LocationId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Cars_ToLocation");
 
             entity.HasOne(d => d.Rate).WithMany(p => p.Cars)
                 .HasForeignKey(d => d.RateId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Cars_ToRates");
         });
 
@@ -125,12 +123,10 @@ public partial class dbClass : DbContext
 
             entity.HasOne(d => d.Car).WithMany(p => p.Rentals)
                 .HasForeignKey(d => d.CarId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Rentals_ToCars");
 
             entity.HasOne(d => d.Customer).WithMany(p => p.Rentals)
                 .HasForeignKey(d => d.CustomerId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Rentals_ToCustomer");
         });
 

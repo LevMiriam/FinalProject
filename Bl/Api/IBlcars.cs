@@ -10,10 +10,13 @@ namespace Bl.Api
 {
     public interface IBlcars
     {
-        public List<BlCarToAdd> GetAllCars();
-        public bool AddCar(BlCarToAdd car);
+        public List<CarFormDto> GetAllCars();
+        public Task<bool> AddCarAsync(CarFormDto carForm)
+;
         public bool DeleteCarById(int id);
-        public bool UpdateCarDetails(BlCarToAdd blCarToAdd);
+        public Task<bool> UpdateCarDetailsAsync(CarFormDto carForm);
+
+        //public bool UpdateCarDetails(BlCarToAdd blCarToAdd);
         public Car GetCarById(int id);
         public List<BlCar> GetCarsByCity(string city);
         public List<BlCar> GetCars(string city = null, string neighborhood = null, int? seats = null, string model = null);

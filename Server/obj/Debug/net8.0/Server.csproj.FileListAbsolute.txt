@@ -862,3 +862,7 @@ C:\FinalProject\Server\obj\Debug\net8.0\Server.pdb
 C:\FinalProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\FinalProject\Server\obj\Debug\net8.0\ref\Server.dll
 C:\FinalProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\FinalProject\Server\bin\Debug\net8.0\Server.staticwebassets.endpoints.json
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

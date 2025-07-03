@@ -111,19 +111,96 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/BlCarToAdd"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/BlCarToAdd"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/BlCarToAdd"
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Make": {
+                    "type": "string"
+                  },
+                  "Model": {
+                    "type": "string"
+                  },
+                  "Year": {
+                    "type": "string"
+                  },
+                  "LicensePlate": {
+                    "type": "string"
+                  },
+                  "Available": {
+                    "type": "boolean"
+                  },
+                  "NumOfSeats": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "BaseRate": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Location.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Location.City": {
+                    "type": "string"
+                  },
+                  "Location.Neighborhood": {
+                    "type": "string"
+                  },
+                  "ImageBase64": {
+                    "type": "string"
+                  },
+                  "Image": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Make": {
+                  "style": "form"
+                },
+                "Model": {
+                  "style": "form"
+                },
+                "Year": {
+                  "style": "form"
+                },
+                "LicensePlate": {
+                  "style": "form"
+                },
+                "Available": {
+                  "style": "form"
+                },
+                "NumOfSeats": {
+                  "style": "form"
+                },
+                "BaseRate": {
+                  "style": "form"
+                },
+                "Location.Id": {
+                  "style": "form"
+                },
+                "Location.City": {
+                  "style": "form"
+                },
+                "Location.Neighborhood": {
+                  "style": "form"
+                },
+                "ImageBase64": {
+                  "style": "form"
+                },
+                "Image": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -175,19 +252,96 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/BlCarToAdd"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/BlCarToAdd"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/BlCarToAdd"
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Make": {
+                    "type": "string"
+                  },
+                  "Model": {
+                    "type": "string"
+                  },
+                  "Year": {
+                    "type": "string"
+                  },
+                  "LicensePlate": {
+                    "type": "string"
+                  },
+                  "Available": {
+                    "type": "boolean"
+                  },
+                  "NumOfSeats": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "BaseRate": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Location.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Location.City": {
+                    "type": "string"
+                  },
+                  "Location.Neighborhood": {
+                    "type": "string"
+                  },
+                  "ImageBase64": {
+                    "type": "string"
+                  },
+                  "Image": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Make": {
+                  "style": "form"
+                },
+                "Model": {
+                  "style": "form"
+                },
+                "Year": {
+                  "style": "form"
+                },
+                "LicensePlate": {
+                  "style": "form"
+                },
+                "Available": {
+                  "style": "form"
+                },
+                "NumOfSeats": {
+                  "style": "form"
+                },
+                "BaseRate": {
+                  "style": "form"
+                },
+                "Location.Id": {
+                  "style": "form"
+                },
+                "Location.City": {
+                  "style": "form"
+                },
+                "Location.Neighborhood": {
+                  "style": "form"
+                },
+                "ImageBase64": {
+                  "style": "form"
+                },
+                "Image": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -571,6 +725,71 @@
           }
         }
       }
+    },
+    "/api/Rentals/history/{userId}": {
+      "get": {
+        "tags": [
+          "Rentals"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rentals/active-today": {
+      "get": {
+        "tags": [
+          "Rentals"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rentals/cars-availability": {
+      "get": {
+        "tags": [
+          "Rentals"
+        ],
+        "parameters": [
+          {
+            "name": "start",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -591,46 +810,6 @@
             "format": "int32"
           },
           "blLocationToAdd": {
-            "$ref": "#/components/schemas/BlLocationToAdd"
-          }
-        },
-        "additionalProperties": false
-      },
-      "BlCarToAdd": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "make": {
-            "type": "string",
-            "nullable": true
-          },
-          "model": {
-            "type": "string",
-            "nullable": true
-          },
-          "year": {
-            "type": "string",
-            "nullable": true
-          },
-          "licensePlate": {
-            "type": "string",
-            "nullable": true
-          },
-          "available": {
-            "type": "boolean"
-          },
-          "numOfSeats": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "baseRate": {
-            "type": "number",
-            "format": "double"
-          },
-          "location": {
             "$ref": "#/components/schemas/BlLocationToAdd"
           }
         },
@@ -764,6 +943,11 @@
           "rateId": {
             "type": "integer",
             "format": "int32"
+          },
+          "image": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
           },
           "location": {
             "$ref": "#/components/schemas/Location"

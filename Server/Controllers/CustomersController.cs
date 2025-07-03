@@ -28,9 +28,9 @@ namespace Server.Controllers
 
 	
 		[HttpPost("login")]
-		public IActionResult LogIn([FromBody] int id)
+		public IActionResult LogIn([FromBody] string email , string password)
 		{
-			var customer = _blManager.BlCustomers.LogIn(id);
+			var customer = _blManager.BlCustomers.LogIn(email, password);
 
 			if (customer != null)
 			{

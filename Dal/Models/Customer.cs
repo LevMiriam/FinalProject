@@ -17,5 +17,7 @@ public partial class Customer
 
     public string Role { get; set; } = null!;
 
+    public string PasswordHash { get; set; } = null!;
+
     public virtual ICollection<Rental> Rentals { get; set; } = new List<Rental>();
 }

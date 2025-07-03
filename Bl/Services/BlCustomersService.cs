@@ -36,7 +36,7 @@ namespace Bl.Services
                || string.IsNullOrWhiteSpace(blSignUpCustomer.Email)
                || string.IsNullOrWhiteSpace(blSignUpCustomer.DriverLicenseNumber))
                 return false;
-            var existing = _dalManager.DalCustomers.LogIn(blSignUpCustomer.Id);
+            var existing = _dalManager.DalCustomers.LogIn(blSignUpCustomer.Email, blSignUpCustomer.PasswordHash);
             if (existing != null)
                 return false;
             var newCustomer = _mapper.Map<Customer>(blSignUpCustomer);
@@ -44,9 +44,13 @@ namespace Bl.Services
             return true;
         }
 
-        public Customer LogIn(int id)
+        //public Customer LogIn(int id)
+        //{
+        //    return _dalManager.DalCustomers.LogIn(id);
+        //}
+        public Customer LogIn(string email, string password)
         {
-            return _dalManager.DalCustomers.LogIn(id);
+            return _dalManager.DalCustomers.LogIn(email, password);
         }
 
         public bool AddNewCustomer(Customer customer)

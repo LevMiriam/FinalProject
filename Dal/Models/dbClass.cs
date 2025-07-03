@@ -79,6 +79,7 @@ public partial class dbClass : DbContext
             entity.Property(e => e.Name)
                 .HasMaxLength(50)
                 .IsUnicode(false);
+            entity.Property(e => e.PasswordHash).IsUnicode(false);
             entity.Property(e => e.Phone)
                 .HasMaxLength(50)
                 .IsUnicode(false);

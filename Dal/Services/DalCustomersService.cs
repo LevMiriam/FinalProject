@@ -31,17 +31,28 @@ namespace Dal.Services
             _context.SaveChanges();
         }
 
-        public Customer LogIn(int id)
-        {
-            var cus = _context.Customers.FirstOrDefault(c => c.Id == id);
-            return cus;
-        }
-
-        //public Customer IsCustomer(int id)
+        //public Customer LogIn(int id)
         //{
-        //	var customer = _context.Customers.FirstOrDefault(c => c.Id == id);
-        //	return customer;
+        //    var cus = _context.Customers.FirstOrDefault(c => c.Id == id);
+        //    return cus;
         //}
+        public Customer LogIn(string email, string password)
+        {
+            var customer = _context.Customers.SingleOrDefault(u => u.Email == email);
+
+            // Check if the customer exists and verify the password
+            if (customer != null && BCrypt.Net.BCrypt.Verify(password, customer.PasswordHash))
+            {
+                return customer; // Return user if authenticated
+            }
+
+            return null; // Return null if authentication fails
+        }
+        public Customer IsCustomer(int id)
+        {
+            var customer = _context.Customers.FirstOrDefault(c => c.Id == id);
+            return customer;
+        }
 
         public bool AddCustomer(Customer customer)
         {
@@ -67,16 +78,12 @@ namespace Dal.Services
             try
             {
                 var cutoffDate = DateTime.Now.AddMonths(-months);
-
-
-
                 bool a = _context.Rentals
                      .Any(r => r.CustomerId == customerId && r.ReturnDate < DateOnly.FromDateTime(cutoffDate));
                 return a;
             }
             catch (Exception ex)
             {
-
                 Console.WriteLine($"Error checking rentals: {ex.Message}");
                 return false;
             }

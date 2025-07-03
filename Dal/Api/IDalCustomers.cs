@@ -13,8 +13,9 @@ namespace Dal.Api
 
 
         public void SignUp(Customer customer);
-		public Customer LogIn(int id);
-		public bool AddCustomer(Customer customer);
+        public Customer LogIn(string email, string password);
+
+        public bool AddCustomer(Customer customer);
 		public bool DeleteCustomerById(int id);
 		public List<Customer> GetAllCustomers();
         public bool HasRentalsInLastMonths(int customerId, int months);

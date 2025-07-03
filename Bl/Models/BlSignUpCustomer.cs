@@ -4,19 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bl.Models
+//namespace Bl.Models
+//{
+//	public class BlSignUpCustomer
+//	{
+//		public int Id { get; set; }
+
+//		public string Name { get; set; } = null!;
+
+//		public string Email { get; set; } = null!;
+
+//		public string Phone { get; set; } = null!;
+//        public string Role { get; set; } = null!;
+
+//        public string DriverLicenseNumber { get; set; } = null!;
+//	}
+//}
+public class BlSignUpCustomer
 {
-	public class BlSignUpCustomer
-	{
-		public int Id { get; set; }
-
-		public string Name { get; set; } = null!;
-
-		public string Email { get; set; } = null!;
-
-		public string Phone { get; set; } = null!;
-        public string Role { get; set; } = null!;
-
-        public string DriverLicenseNumber { get; set; } = null!;
-	}
+    public int Id { get; set; }
+    public string Name { get; set; } = null!;
+    public string Email { get; set; } = null!;
+    public string Phone { get; set; } = null!;
+    public string Role { get; set; } = null!;
+    public string DriverLicenseNumber { get; set; } = null!;
+    public string PasswordHash { get; set; } = null!;
 }
+

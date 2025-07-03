@@ -26,12 +26,14 @@ namespace Server.Controllers
         {
             return Ok(_blManager.BlCars.GetCarById(id));
         }
+        [Authorize(Policy = "RequireAdminRole")]
         [HttpPost("AddCar")]
         public async Task<IActionResult> AddCar([FromForm] CarFormDto carForm)
         {
             bool success = await _blManager.BlCars.AddCarAsync(carForm);
             return success ? Ok("Registered successfully") : BadRequest("Registration failed");
         }
+        [Authorize(Policy = "RequireAdminRole")]
 
         [HttpDelete("DeleteCarById")]
         public IActionResult DeleteCarById(int id)
@@ -69,6 +71,7 @@ namespace Server.Controllers
         //        return StatusCode(500, $"An error occurred: {ex.Message}");
         //    }
         //}
+        [Authorize(Policy = "RequireAdminRole")]
         [HttpPut("updateCar/{id}")]
         public async Task<IActionResult> UpdateCar(int id, [FromForm] CarFormDto updateCar)
         {

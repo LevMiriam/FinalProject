@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "loginCustomer",
+        "Type": "Bl.Models.BlLoginCustomer",
         "IsRequired": true
       }
     ],
@@ -25,7 +25,7 @@
     "Parameters": [
       {
         "Name": "customer",
-        "Type": "Bl.Models.BlSignUpCustomer",
+        "Type": "BlSignUpCustomer",
         "IsRequired": true
       }
     ],
@@ -360,9 +360,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "email",
+        "Type": "System.String",
         "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -377,7 +382,7 @@
     "Parameters": [
       {
         "Name": "customer",
-        "Type": "Bl.Models.BlSignUpCustomer",
+        "Type": "BlSignUpCustomer",
         "IsRequired": true
       }
     ],
@@ -398,7 +403,7 @@
       },
       {
         "Name": "updatedCustomer",
-        "Type": "Bl.Models.BlSignUpCustomer",
+        "Type": "BlSignUpCustomer",
         "IsRequired": true
       }
     ],

@@ -45,20 +45,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "integer",
-                "format": "int32"
+                "$ref": "#/components/schemas/BlLoginCustomer"
               }
             },
             "text/json": {
               "schema": {
-                "type": "integer",
-                "format": "int32"
+                "$ref": "#/components/schemas/BlLoginCustomer"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "integer",
-                "format": "int32"
+                "$ref": "#/components/schemas/BlLoginCustomer"
               }
             }
           }
@@ -453,24 +450,30 @@
         "tags": [
           "Customers"
         ],
+        "parameters": [
+          {
+            "name": "password",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "type": "integer",
-                "format": "int32"
+                "type": "string"
               }
             },
             "text/json": {
               "schema": {
-                "type": "integer",
-                "format": "int32"
+                "type": "string"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "integer",
-                "format": "int32"
+                "type": "string"
               }
             }
           }
@@ -833,6 +836,20 @@
         },
         "additionalProperties": false
       },
+      "BlLoginCustomer": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "BlPaymentRequest": {
         "type": "object",
         "properties": {
@@ -896,6 +913,10 @@
             "nullable": true
           },
           "driverLicenseNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwordHash": {
             "type": "string",
             "nullable": true
           }
@@ -989,6 +1010,10 @@
             "nullable": true
           },
           "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwordHash": {
             "type": "string",
             "nullable": true
           },

@@ -13,8 +13,8 @@ namespace Bl.Api
     {
         public bool UserExists(string name);
         public bool SignUp(BlSignUpCustomer blSignUpCustomer);
-        public Customer LogIn(int id);
-		public bool AddNewCustomer(Customer customer);
+        public Customer LogIn(string email, string password);
+        public bool AddNewCustomer(Customer customer);
 		public bool DeleteCustomerById(int id);
 		public List<Customer> GetAllCustomers();
         public bool DeleteCustomerIfInactive(int customerId, int months);

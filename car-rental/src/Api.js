@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const API_URLS = {
     cars: 'https://localhost:7180/api/Cars',
-    getCarsByCity: 'https://localhost:7180/api/Cars/GetCarsByCity',
+    getCarsByCity: 'https://localhost:7180/api/Cars/GetCars',
 
     
    
@@ -13,6 +13,6 @@ export const getAllCars = async () => {
     return response.data;
 };
 export const getCarsByCity = async () => {
-    const response = await axios.get(API_URLS.cars); 
+    const response = await axios.get(API_URLS.getCarsByCity); 
     return response.data;
 };

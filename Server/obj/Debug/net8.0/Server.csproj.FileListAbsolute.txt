@@ -866,3 +866,4 @@ C:\FinalProject\Server\bin\Debug\net8.0\Server.staticwebassets.endpoints.json
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\FinalProject\Server\bin\Debug\net8.0\BCrypt.Net-Next.dll

@@ -3,59 +3,12 @@
   "WorkspaceRootPath": "C:\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\services\\dalrentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\services\\dalrentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\services\\dalcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\services\\dalcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\services\\blrentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\services\\blrentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\models\\blcalendermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\models\\blcalendermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\services\\blcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\services\\blcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\api\\idalrentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idalrentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\api\\iblrentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\api\\iblrentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\models\\blunavailabledate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\models\\blunavailabledate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__FINALPROJECT_DAL_DATA_CARRENTALDATABASE.MDF/True/SqlTable/dbo.Rentals.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\caravailabilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\caravailabilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,177 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Server\\Program.cs",
-              "RelativeDocumentMoniker": "Server\\Program.cs",
-              "ToolTip": "C:\\FinalProject\\Server\\Program.cs",
-              "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAgwI8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T16:33:50.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CarsController.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Server\\Controllers\\CarsController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\CarsController.cs",
-              "ToolTip": "C:\\FinalProject\\Server\\Controllers\\CarsController.cs",
-              "RelativeToolTip": "Server\\Controllers\\CarsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T12:40:49.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Server.http",
-              "DocumentMoniker": "C:\\FinalProject\\Server\\Server.http",
-              "RelativeDocumentMoniker": "Server\\Server.http",
-              "ToolTip": "C:\\FinalProject\\Server\\Server.http",
-              "RelativeToolTip": "Server\\Server.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-04T12:29:17.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RentalsController.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Server\\Controllers\\RentalsController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\RentalsController.cs",
-              "ToolTip": "C:\\FinalProject\\Server\\Controllers\\RentalsController.cs",
-              "RelativeToolTip": "Server\\Controllers\\RentalsController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAgwAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T11:20:32.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlRentalService.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Bl\\Services\\BlRentalService.cs",
-              "RelativeDocumentMoniker": "Bl\\Services\\BlRentalService.cs",
-              "ToolTip": "C:\\FinalProject\\Bl\\Services\\BlRentalService.cs",
-              "RelativeToolTip": "Bl\\Services\\BlRentalService.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAowKgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T23:19:54.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IBlRentals.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Bl\\Api\\IBlRentals.cs",
-              "RelativeDocumentMoniker": "Bl\\Api\\IBlRentals.cs",
-              "ToolTip": "C:\\FinalProject\\Bl\\Api\\IBlRentals.cs",
-              "RelativeToolTip": "Bl\\Api\\IBlRentals.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T01:05:34.827Z"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DalRentalService.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Dal\\Services\\DalRentalService.cs",
-              "RelativeDocumentMoniker": "Dal\\Services\\DalRentalService.cs",
-              "ToolTip": "C:\\FinalProject\\Dal\\Services\\DalRentalService.cs",
-              "RelativeToolTip": "Dal\\Services\\DalRentalService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAKQAAAADAAAAAAAAAA==",
+              "Title": "DalCarsService.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Dal\\Services\\DalCarsService.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\DalCarsService.cs",
+              "ToolTip": "C:\\FinalProject\\Dal\\Services\\DalCarsService.cs",
+              "RelativeToolTip": "Dal\\Services\\DalCarsService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T12:14:49.024Z",
+              "WhenOpened": "2025-07-03T20:34:52.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IDalRentals.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Dal\\Api\\IDalRentals.cs",
-              "RelativeDocumentMoniker": "Dal\\Api\\IDalRentals.cs",
-              "ToolTip": "C:\\FinalProject\\Dal\\Api\\IDalRentals.cs",
-              "RelativeToolTip": "Dal\\Api\\IDalRentals.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA7AAAA",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Dal\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Dal\\Models\\Customer.cs",
+              "ToolTip": "C:\\FinalProject\\Dal\\Models\\Customer.cs",
+              "RelativeToolTip": "Dal\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T01:00:01.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\FinalProject\\Server\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\FinalProject\\Server\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Server\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-03T02:25:53.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BlCarsService.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Bl\\Services\\BlCarsService.cs",
-              "RelativeDocumentMoniker": "Bl\\Services\\BlCarsService.cs",
-              "ToolTip": "C:\\FinalProject\\Bl\\Services\\BlCarsService.cs",
-              "RelativeToolTip": "Bl\\Services\\BlCarsService.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:32:47.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BlCalenderModel.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Bl\\Models\\BlCalenderModel.cs",
-              "RelativeDocumentMoniker": "Bl\\Models\\BlCalenderModel.cs",
-              "ToolTip": "C:\\FinalProject\\Bl\\Models\\BlCalenderModel.cs",
-              "RelativeToolTip": "Bl\\Models\\BlCalenderModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T00:57:11.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BlUnavailableDate.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Bl\\Models\\BlUnavailableDate.cs",
-              "RelativeDocumentMoniker": "Bl\\Models\\BlUnavailableDate.cs",
-              "ToolTip": "C:\\FinalProject\\Bl\\Models\\BlUnavailableDate.cs",
-              "RelativeToolTip": "Bl\\Models\\BlUnavailableDate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T00:58:17.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CarAvailabilityService.cs",
-              "DocumentMoniker": "C:\\FinalProject\\Server\\CarAvailabilityService.cs",
-              "RelativeDocumentMoniker": "Server\\CarAvailabilityService.cs",
-              "ToolTip": "C:\\FinalProject\\Server\\CarAvailabilityService.cs",
-              "RelativeToolTip": "Server\\CarAvailabilityService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T22:08:07.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "dbo.Rentals.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__FINALPROJECT_DAL_DATA_CARRENTALDATABASE.MDF/True/SqlTable/dbo.Rentals.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__FINALPROJECT_DAL_DATA_CARRENTALDATABASE.MDF/True/SqlTable/dbo.Rentals.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-02T22:14:52.669Z"
+              "WhenOpened": "2025-07-03T20:34:36.737Z",
+              "EditorCaption": ""
             }
           ]
         }

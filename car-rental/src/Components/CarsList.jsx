@@ -22,7 +22,7 @@ const CarList = () => {
     const handleSearch = async () => {
 
         if (!searchLocation) return;
-        
+
         try {
             const data = await getCarsByCity(searchLocation);
             setCars(data);
@@ -68,6 +68,10 @@ const CarList = () => {
                                 <Typography color="text.secondary" align="center">
                                     Location: {car.location.city}, {car.location.neighborhood}
                                 </Typography>
+                                <img
+                                    src={`data:image/jpeg;base64,${car.imageBase64}`} alt="car" 
+                                    style={{ width: '100%', height: 180, objectFit: 'cover', margin: '16px 0', borderRadius: 8 }}
+                                />
                             </CardContent>
                         </Card>
                     </Grid>
@@ -78,4 +82,3 @@ const CarList = () => {
 };
 
 export default CarList;
-

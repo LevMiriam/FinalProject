@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Bl.Services.BlRentalService;
 
 namespace Bl.Api
 {
@@ -19,9 +20,10 @@ namespace Bl.Api
         public Task<List<BlUnavailableDate>> GetUnavailableDatesAsync(int year, int month);
         public Task ValidateRentalAndReturnDatesAsync(DateOnly rentalDate, DateOnly returnDate);
         public bool ProcessPayment(string customerEmail, decimal amount);
-        public List<Rental> GetActiveRentalsToday();
-        public List<Rental> GetUserRentalHistory(int userId);
+        public List<BlRentalToAdd> GetActiveRentalsToday();
+        public List<BlRentalToAdd> GetUserRentalHistory(int userId);
 
+        public Task<List<CarWithAvailabilityDto>> GetAllCarsWithAvailabilityAsync(DateOnly? start, DateOnly? end);
 
 
 

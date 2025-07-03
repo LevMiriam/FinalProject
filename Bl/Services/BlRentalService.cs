@@ -220,17 +220,42 @@ namespace Bl.Services
             return false;
         }
 
-        public List<Rental> GetUserRentalHistory(int userId)
+        public List<BlRentalToAdd> GetUserRentalHistory(int userId)
         {
-            return _dalManager.DalRentals.GetRentalsByUserId(userId);
-            ;
+            var rentals = _dalManager.DalRentals.GetRentalsByUserId(userId);
+            return _mapper.Map<List<BlRentalToAdd>>(rentals);
         }
 
-        public List<Rental> GetActiveRentalsToday()
+        public List<BlRentalToAdd> GetActiveRentalsToday()
         {
-            return _dalManager.DalRentals.GetActiveRentalsToday();
+            var rentals = _dalManager.DalRentals.GetActiveRentalsToday();
+            return _mapper.Map<List<BlRentalToAdd>>(rentals);
+        }
+        public class CarWithAvailability
+        {
+            public Car Car { get; set; }
+            public bool IsAvailableNow { get; set; } // זמינות דינמית בטווח
+            public bool Available { get; set; } // סטטוס כללי מה-DB
         }
 
+        public async Task<List<CarWithAvailabilityDto>> GetAllCarsWithAvailabilityAsync(DateOnly? start, DateOnly? end)
+        {
+            // אם לא הוזן טווח, השתמש בתאריך של היום
+            var startDate = start ?? DateOnly.FromDateTime(DateTime.Today);
+            var endDate = end ?? DateOnly.FromDateTime(DateTime.Today);
+
+            var cars = _dalManager.DalCars.GetAllCars();
+            var availability = await _dalManager.DalRentals.GetCarsAvailabilityAsync(startDate, endDate);
+
+            var carDtos = _mapper.Map<List<CarWithAvailabilityDto>>(cars);
+
+            foreach (var dto in carDtos)
+            {
+                dto.IsAvailableNow = dto.Available && availability.TryGetValue(dto.Id, out var isAvail) && isAvail;
+            }
+
+            return carDtos;
+        }
 
     }
 }

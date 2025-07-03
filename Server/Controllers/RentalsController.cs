@@ -114,12 +114,17 @@ namespace Server.Controllers
                 return NotFound("No active rentals found for today.");
             }
             else
-
                 return Ok(new
                 {
                     Rentals = activeRentals,
                     Count = count
                 });
+        }
+        [HttpGet("cars-availability")]
+        public async Task<IActionResult> GetCarsAvailability([FromQuery] DateOnly? start, [FromQuery] DateOnly? end)
+        {
+            var carsWithAvailability = await _blManager.BlRental.GetAllCarsWithAvailabilityAsync(start, end);
+            return Ok(carsWithAvailability);
         }
     }
 }

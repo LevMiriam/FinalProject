@@ -25,6 +25,8 @@ public partial class Car
 
     public int RateId { get; set; }
 
+    public byte[]? Image { get; set; }
+
     public virtual Location Location { get; set; } = null!;
 
     public virtual Rate Rate { get; set; } = null!;

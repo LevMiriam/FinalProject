@@ -18,6 +18,56 @@ namespace Server
         {
             _serviceProvider = serviceProvider;
         }
+
+        //    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+        //    {
+        //        while (!stoppingToken.IsCancellationRequested)
+        //        {
+        //            using (var scope = _serviceProvider.CreateScope())
+        //            {
+        //                var context = scope.ServiceProvider.GetRequiredService<dbClass>();
+        //                var today = DateOnly.FromDateTime(DateTime.Today);
+
+        //                // עדכון זמינות רכבים
+        //                var rentalsToUpdate = await context.Rentals
+        //                    .Include(r => r.Car)
+        //                    .Where(r => r.RentalDate == today && r.Car.Available)
+        //                    .AsNoTracking() // שימוש ב-AsNoTracking לשיפור ביצועים
+        //                    .ToListAsync(stoppingToken);
+
+        //                foreach (var rental in rentalsToUpdate)
+        //                {
+        //                    rental.Car.Available = false;
+        //                }
+
+        //                // עדכון רכבים שהוחזרו
+        //                var endedRentals = await context.Rentals
+        //                    .Include(r => r.Car)
+        //                    .Where(r => r.ReturnDate < today && !r.Car.Available)
+        //                    .AsNoTracking() // שימוש ב-AsNoTracking לשיפור ביצועים
+        //                    .ToListAsync(stoppingToken);
+
+        //                foreach (var rental in endedRentals)
+        //                {
+        //                    rental.Car.Available = true;
+        //                }
+
+        //                try
+        //                {
+        //                    await context.SaveChangesAsync(stoppingToken);
+        //                }
+        //                catch (DbUpdateException ex)
+        //                {
+        //                    // טיפול בשגיאות שמירה
+        //                    // הוסף לוגים או טיפול בשגיאות כאן
+        //                    Console.WriteLine($"Error saving changes: {ex.Message}"); // הוספת לוגים
+        //                }
+        //            }
+
+        //            await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
+        //        }
+        //    }
+        //}
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
@@ -25,37 +75,54 @@ namespace Server
                 using (var scope = _serviceProvider.CreateScope())
                 {
                     var context = scope.ServiceProvider.GetRequiredService<dbClass>();
-
                     var today = DateOnly.FromDateTime(DateTime.Today);
 
-                    // עדכון זמינות רכבים
-                    var rentalsToUpdate = context.Rentals
+                    // עדכון זמינות רכבים - רכבים שהושכרו היום
+                    var rentalsToUpdate = await context.Rentals
                         .Include(r => r.Car)
-                        .Where(r => r.RentalDate == today && !r.Car.Available)
-                        .ToList();
+                        .Where(r => r.RentalDate == today && r.Car.Available)
+                        .ToListAsync(stoppingToken);
 
                     foreach (var rental in rentalsToUpdate)
                     {
-                        rental.Car.Available = false;
+                        var car = rental.Car;
+                        if (car != null)
+                        {
+                            car.Available = false;
+                            context.Cars.Update(car);
+                        }
                     }
 
                     // עדכון רכבים שהוחזרו
-                    var endedRentals = context.Rentals
+                    var endedRentals = await context.Rentals
                         .Include(r => r.Car)
                         .Where(r => r.ReturnDate < today && !r.Car.Available)
-                        .ToList();
+                        .ToListAsync(stoppingToken);
 
                     foreach (var rental in endedRentals)
                     {
-                        rental.Car.Available = true;
+                        var car = rental.Car;
+                        if (car != null)
+                        {
+                            car.Available = true;
+                            context.Cars.Update(car);
+                        }
                     }
 
-                    await context.SaveChangesAsync(stoppingToken);
+                    try
+                    {
+                        await context.SaveChangesAsync(stoppingToken);
+                    }
+                    catch (DbUpdateException ex)
+                    {
+                        Console.WriteLine($"Error saving changes: {ex.InnerException?.Message}");
+                    }
                 }
 
-                await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
+                await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
             }
         }
-
     }
 }
+
+

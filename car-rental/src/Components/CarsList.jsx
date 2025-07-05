@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getAllCars, getCarsByCity } from '../Api'; // ודא שהנתיב נכון
 import { Card, CardContent, Typography, Grid, Container, TextField } from '@mui/material';
 
+
 const CarList = () => {
     const [cars, setCars] = useState([]);
     const [searchLocation, setSearchLocation] = useState('');

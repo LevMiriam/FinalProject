@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\FinalProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\services\\blcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\services\\blcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\services\\blcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\services\\blcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\services\\dalcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\services\\dalcustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\services\\dalcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|solutionrelative:dal\\services\\dalcarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|c:\\finalproject\\bl\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AEA5E0-E609-4FAF-87CF-3BD10BA510B2}|Bl\\Bl.csproj|solutionrelative:bl\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|c:\\finalproject\\server\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39D0299-5473-4496-83A4-F54DE785F3C8}|Server\\Server.csproj|solutionrelative:server\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71F599D7-FDD3-4972-A67D-1C281725C377}|Dal\\Dal.csproj|c:\\finalproject\\dal\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,28 +50,144 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlCustomersService.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Bl\\Services\\BlCustomersService.cs",
+              "RelativeDocumentMoniker": "Bl\\Services\\BlCustomersService.cs",
+              "ToolTip": "C:\\FinalProject\\Bl\\Services\\BlCustomersService.cs",
+              "RelativeToolTip": "Bl\\Services\\BlCustomersService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T14:21:22.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DalCustomersService.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Dal\\Services\\DalCustomersService.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\DalCustomersService.cs",
+              "ToolTip": "C:\\FinalProject\\Dal\\Services\\DalCustomersService.cs",
+              "RelativeToolTip": "Dal\\Services\\DalCustomersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T14:20:56.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Server\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\FinalProject\\Server\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "Server\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwK4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T13:22:43.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\FinalProject\\Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwEUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:23:06.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\FinalProject\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAAMgBAAAAAAAAAAAqwN0BAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:26:19.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "RentalsController.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Server\\Controllers\\RentalsController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\RentalsController.cs",
+              "ToolTip": "C:\\FinalProject\\Server\\Controllers\\RentalsController.cs",
+              "RelativeToolTip": "Server\\Controllers\\RentalsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:26:09.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlCarsService.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Bl\\Services\\BlCarsService.cs",
+              "RelativeDocumentMoniker": "Bl\\Services\\BlCarsService.cs",
+              "ToolTip": "C:\\FinalProject\\Bl\\Services\\BlCarsService.cs",
+              "RelativeToolTip": "Bl\\Services\\BlCarsService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:29:11.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\FinalProject\\Bl\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Bl\\Services\\JwtService.cs",
+              "ToolTip": "C:\\FinalProject\\Bl\\Services\\JwtService.cs",
+              "RelativeToolTip": "Bl\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:28:26.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DalCarsService.cs",
               "DocumentMoniker": "C:\\FinalProject\\Dal\\Services\\DalCarsService.cs",
               "RelativeDocumentMoniker": "Dal\\Services\\DalCarsService.cs",
               "ToolTip": "C:\\FinalProject\\Dal\\Services\\DalCarsService.cs",
               "RelativeToolTip": "Dal\\Services\\DalCarsService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T20:34:52.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\FinalProject\\Dal\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Dal\\Models\\Customer.cs",

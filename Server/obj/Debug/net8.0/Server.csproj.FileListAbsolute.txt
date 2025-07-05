@@ -686,15 +686,11 @@ H:\יד אייר\FinalProject\Server\obj\Debug\net8.0\refint\Server.dll
 H:\יד אייר\FinalProject\Server\obj\Debug\net8.0\Server.pdb
 H:\יד אייר\FinalProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 H:\יד אייר\FinalProject\Server\obj\Debug\net8.0\ref\Server.dll
-C:\FinalProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-C:\FinalProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\FinalProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-C:\FinalProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-C:\FinalProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-C:\FinalProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-C:\FinalProject\Server\obj\Debug\net8.0\Server.sourcelink.json
+C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\FinalProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\FinalProject\Server\bin\Debug\net8.0\appsettings.Development.json
 C:\FinalProject\Server\bin\Debug\net8.0\appsettings.json
+C:\FinalProject\Server\bin\Debug\net8.0\Server.staticwebassets.endpoints.json
 C:\FinalProject\Server\bin\Debug\net8.0\Server.exe
 C:\FinalProject\Server\bin\Debug\net8.0\Server.deps.json
 C:\FinalProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
@@ -717,7 +713,6 @@ C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
@@ -744,7 +739,6 @@ C:\FinalProject\Server\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\FinalProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\FinalProject\Server\bin\Debug\net8.0\System.ClientModel.dll
 C:\FinalProject\Server\bin\Debug\net8.0\System.CodeDom.dll
 C:\FinalProject\Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
@@ -847,22 +841,28 @@ C:\FinalProject\Server\bin\Debug\net8.0\Bl.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Dal.dll
 C:\FinalProject\Server\bin\Debug\net8.0\Bl.pdb
 C:\FinalProject\Server\bin\Debug\net8.0\Dal.pdb
+C:\FinalProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
+C:\FinalProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
+C:\FinalProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
+C:\FinalProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
+C:\FinalProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\FinalProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\FinalProject\Server\obj\Debug\net8.0\Server.sourcelink.json
+C:\FinalProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.build.json
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\FinalProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
 C:\FinalProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
 C:\FinalProject\Server\obj\Debug\net8.0\Server.dll
 C:\FinalProject\Server\obj\Debug\net8.0\refint\Server.dll
 C:\FinalProject\Server\obj\Debug\net8.0\Server.pdb
 C:\FinalProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\FinalProject\Server\obj\Debug\net8.0\ref\Server.dll
-C:\FinalProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\FinalProject\Server\bin\Debug\net8.0\Server.staticwebassets.endpoints.json
-C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\FinalProject\Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

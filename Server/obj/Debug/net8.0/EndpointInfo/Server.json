@@ -1100,7 +1100,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "http",
-        "description": "Enter 'Bearer' followed by a space and your token.",
+        "description": "Enter your token.",
         "scheme": "Bearer",
         "bearerFormat": "JWT"
       }

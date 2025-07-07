@@ -12,7 +12,8 @@ export const getAllCars = async () => {
     const response = await axios.get(API_URLS.cars); 
     return response.data;
 };
-export const getCarsByCity = async () => {
-    const response = await axios.get(API_URLS.cars); 
+
+export const getCarsByCity = async (city) => {
+    const response = await axios.get(`${API_URLS.getCarsByCity}?city=${city}`);
     return response.data;
 };

@@ -1,33 +1,43 @@
-# Node.js
-node_modules/
-npm-debug.log
+# .NET build folders
+bin/
+obj/
+TestResults/
 
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-env/
-venv/
+# User files
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.mdb
 
-# Java
-*.class
-*.jar
-*.war
-*.ear
-target/
+# ASP.NET specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
-# macOS
-.DS_Store
+# IDE settings
+.vs/
+*.sln.docstates
 
-# IDEs
+# Rider / VS Code / JetBrains
 .idea/
-*.sublime-workspace
-*.sublime-project
+*.iml
 .vscode/
 
-# Logs
-*.log
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.psmdcp
 
-# Environment variables
-.env
+# Database files
+*.mdf
+*.ldf
+
+# Other
+*.log
+*.bak
+*.tmp

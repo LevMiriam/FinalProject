@@ -22,12 +22,6 @@ namespace Dal.Services
             return _context.Cars.Include(c => c.Location).ToList();
         }
 
-        //public Car GetCarById(int id)
-        //{
-        //    var car = _context.Cars.FirstOrDefault(c => c.Id == id);
-        //    return car == null ? null : car;
-        //}
-
         public async Task<Car?> GetCarByIdAsync(int id)
         {
             return await _context.Cars.FirstOrDefaultAsync(c => c.Id == id);
@@ -125,6 +119,7 @@ namespace Dal.Services
                 existingCar.NumOfSeats = car.NumOfSeats;
                 existingCar.BaseRate = car.BaseRate;
                 existingCar.LocationId = car.LocationId;
+                existingCar.Location = car.Location;
                 if (car.Image != null && car.Image.Length > 0)
                     existingCar.Image = car.Image;
 

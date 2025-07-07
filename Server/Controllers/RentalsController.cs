@@ -1,5 +1,6 @@
 ﻿using Bl;
 using Bl.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +8,8 @@ namespace Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class RentalsController : ControllerBase
     {
         public readonly IBlManager _blManager;
@@ -103,7 +106,7 @@ namespace Server.Controllers
             }
             return Ok(rentals);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpGet("active-today")]
         public IActionResult GetActiveRentalsToday()
         {

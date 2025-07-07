@@ -4,12 +4,15 @@ using Microsoft.AspNetCore.Mvc;
 using Dal.models;
 using Bl.Api;
 using Bl.Models;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class CustomersController : ControllerBase
     {
         public readonly IBlManager _blManager;
@@ -55,7 +58,7 @@ namespace Server.Controllers
 			}
 			return Ok($"Invalid details");
 		}
-
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult GetAllCustomers()
         {
@@ -70,8 +73,8 @@ namespace Server.Controllers
 				: BadRequest("The delete failed.");
 		}
 
-	
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("delete-inactive/{id}")]
         public IActionResult DeleteCustomer(int id)
         {
@@ -84,7 +87,7 @@ namespace Server.Controllers
 
             return NotFound($"Customer with ID {id} was not found or is still active.");
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpDelete("delete-inactive")]
         public IActionResult DeleteInactiveCustomers([FromQuery] int months)
         {

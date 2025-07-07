@@ -16,49 +16,26 @@ namespace Server.Controllers
             _blManager = blManager;
         }
 
-
-        //[HttpPost("signup")]
-        //public IActionResult SignUp([FromBody] BlSignUpCustomer customer)
-        //{
-        //	bool success = _blManager.BlCustomers.SignUp(customer);
-        //	return success ? Ok("Registered successfully") : BadRequest("Registration failed");
-        //}
-
         [HttpPost("signup")]
         public IActionResult SignUp([FromBody] BlSignUpCustomer customer)
         {
-            // נניח שיש לך פונקציה שמוודאת אם המשתמש כבר קיים לפי שם משתמש או אימייל
             bool userExists = _blManager.BlCustomers.UserExists(customer.Name);
             if (userExists)
-                return BadRequest("User already exists");
+                return Conflict("User already exists");
+
             if (string.IsNullOrWhiteSpace(customer.Role))
             {
-                customer.Role = "User"; // Assign default role
+                customer.Role = "User";
             }
             bool success = _blManager.BlCustomers.SignUp(customer);
 
             if (!success)
                 return BadRequest("Registration failed");
 
-            // אפשר להחזיר גם מידע נוסף, או פשוט הודעה
             return Ok("Registered successfully");
         }
 
 
-        //[HttpPost("login")]
-        //public IActionResult LogIn([FromBody] int id)
-        //{
-        //	var customer = _blManager.BlCustomers.LogIn(id);
-
-        //	if (customer != null)
-        //	{
-        //		return Ok($"Welcome {customer.Name}!");
-        //	}
-        //	else
-        //	{
-        //		return StatusCode(299, "Customer not found. Please sign up");
-        //	}
-        //}
         [HttpPost("login")]
         public IActionResult Login([FromBody] int id, [FromServices] JwtService jwtService)
         {
@@ -69,6 +46,7 @@ namespace Server.Controllers
             var token = jwtService.GenerateToken(customer.Id, customer.Role, customer.Name);
             return Ok(new { token });
         }
+
 
     }
 }

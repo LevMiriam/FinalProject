@@ -34,6 +34,8 @@ namespace Bl.Services
                 expires: DateTime.Now.AddMinutes(_expirationMinutes),
                 signingCredentials: creds
             );
+            Console.WriteLine($"Generating token for user {userId} with role {role}");
+
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }

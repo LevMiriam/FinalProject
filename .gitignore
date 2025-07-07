@@ -41,3 +41,12 @@ packages/
 *.log
 *.bak
 *.tmp
+
+bin/
+obj/
+.vs/
+*.dll
+*.pdb
+*.exe
+*.ldf
+*.mdf

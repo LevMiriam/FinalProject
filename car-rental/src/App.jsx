@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Components/Home';
-import About from './Components/Home';
+import About from './Components/About';
 import Cars from './Components/CarsList';
 import Container from '@mui/material/Container';
 import ClientsList from './Components/Clients';

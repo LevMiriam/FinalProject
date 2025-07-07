@@ -31,7 +31,10 @@ namespace Server.Controllers
             bool userExists = _blManager.BlCustomers.UserExists(customer.Name);
             if (userExists)
                 return BadRequest("User already exists");
-
+            if (string.IsNullOrWhiteSpace(customer.Role))
+            {
+                customer.Role = "User"; // Assign default role
+            }
             bool success = _blManager.BlCustomers.SignUp(customer);
 
             if (!success)
@@ -66,5 +69,6 @@ namespace Server.Controllers
             var token = jwtService.GenerateToken(customer.Id, customer.Role, customer.Name);
             return Ok(new { token });
         }
+
     }
 }

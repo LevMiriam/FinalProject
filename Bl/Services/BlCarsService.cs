@@ -11,6 +11,10 @@ using Bl.Models;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using Dal;
+using Microsoft.AspNetCore.Authorization;
+
+
+
 
 namespace Bl.Services
 {
@@ -41,6 +45,7 @@ namespace Bl.Services
 
             return carsToAdd;
         }
+
         public async Task<bool> UpdateCarDetailsAsync(CarFormDto carForm)
         {
             if (carForm == null)

@@ -15,23 +15,29 @@ namespace Server.Controllers
         {
             _blManager = blManager;
         }
+        [Authorize]
 
         [HttpGet]
         public IActionResult GetAllCars()
         {
             return Ok(_blManager.BlCars.GetAllCars());
         }
+        [Authorize]
+
         [HttpGet("GetCarById")]
         public IActionResult GetCarById(int id)
         {
             return Ok(_blManager.BlCars.GetCarById(id));
         }
+        [Authorize(Roles = "Admin")]
+
         [HttpPost("AddCar")]
         public async Task<IActionResult> AddCar([FromForm] CarFormDto carForm)
         {
             bool success = await _blManager.BlCars.AddCarAsync(carForm);
             return success ? Ok("Registered successfully") : BadRequest("Registration failed");
         }
+        [Authorize(Roles = "Admin")]
 
         [HttpDelete("DeleteCarById")]
         public IActionResult DeleteCarById(int id)
@@ -69,6 +75,8 @@ namespace Server.Controllers
         //        return StatusCode(500, $"An error occurred: {ex.Message}");
         //    }
         //}
+        [Authorize(Roles = "Admin")]
+
         [HttpPut("updateCar/{id}")]
         public async Task<IActionResult> UpdateCar(int id, [FromForm] CarFormDto updateCar)
         {
@@ -122,6 +130,7 @@ namespace Server.Controllers
         //        return NotFound("No cars found in the specified city.");
         //    }
         //}
+        [Authorize]
 
         [HttpGet("GetCarsByCity")]
         public IActionResult GetCarCountByCity(string city)
@@ -158,14 +167,14 @@ namespace Server.Controllers
         //        return NotFound("No cars found with the specified filters.");
         //    }
         //}
-
+        [Authorize]
         [HttpGet("GetCars")]
         public IActionResult GetCars(string city = null, string neighborhood = null, int? seats = null, string model = null)
         {
-            if (!User.Identity.IsAuthenticated)
-            {
-                return Unauthorized("User is not authenticated.");
-            }
+            //if (!User.Identity.IsAuthenticated)
+            //{
+            //    return Unauthorized("User is not authenticated.");
+            //}
 
             List<BlCar> cars = _blManager.BlCars.GetCars(city, neighborhood, seats, model);
 

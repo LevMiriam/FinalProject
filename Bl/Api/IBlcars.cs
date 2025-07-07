@@ -19,6 +19,6 @@ namespace Bl.Api
         //public bool UpdateCarDetails(BlCarToAdd blCarToAdd);
         public Car GetCarById(int id);
         public List<BlCar> GetCarsByCity(string city);
-        public List<BlCar> GetCars(string city = null, string neighborhood = null, int? seats = null, string model = null);
+        public List<CarFormDto> GetCars(string city = null, string neighborhood = null, int? seats = null, string model = null);
     }
 }

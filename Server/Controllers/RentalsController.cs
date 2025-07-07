@@ -1,5 +1,6 @@
 ﻿using Bl;
 using Bl.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +8,8 @@ namespace Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class RentalsController : ControllerBase
     {
         public readonly IBlManager _blManager;
@@ -24,7 +27,6 @@ namespace Server.Controllers
             if (_blManager == null || _blManager.BlRental == null)
                 return StatusCode(500, "Internal server error: BL is null.");
 
-            // Prevent ordering for past dates
             if (rentalOrder.RentalDate < DateOnly.FromDateTime(DateTime.Today))
                 return BadRequest("Cannot order for a past date.");
 
@@ -38,7 +40,7 @@ namespace Server.Controllers
                 decimal totalPrice = await _blManager.BlRental.CalculateRentalPriceAsync(rentalOrder);
 
 
-               //את הפונקציה של התשלום מזמנים בריאקט
+                //את הפונקציה של התשלום מזמנים בריאקט
                 return Ok(new BlRentalOrderResult
                 {
                     Message = $"Rental order created successfully.",
@@ -75,7 +77,7 @@ namespace Server.Controllers
             try
             {
                 var dates = await _blManager.BlRental.GetUnavailableDatesAsync(year, month);
-                return Ok(dates); // מחזיר List<UnavailableDateModel>
+                return Ok(dates);
             }
             catch (Exception ex)
             {
@@ -104,6 +106,7 @@ namespace Server.Controllers
             return Ok(rentals);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet("active-today")]
         public IActionResult GetActiveRentalsToday()
         {
@@ -120,6 +123,7 @@ namespace Server.Controllers
                     Count = count
                 });
         }
+
         [HttpGet("cars-availability")]
         public async Task<IActionResult> GetCarsAvailability([FromQuery] DateOnly? start, [FromQuery] DateOnly? end)
         {

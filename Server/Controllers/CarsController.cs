@@ -24,6 +24,7 @@ namespace Server.Controllers
         }
 
         [HttpGet("GetCarById")]
+        [AllowAnonymous]
         public IActionResult GetCarById(int id)
         {
             return Ok(_blManager.BlCars.GetCarById(id));

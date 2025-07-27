@@ -50,3 +50,6 @@ obj/
 *.exe
 *.ldf
 *.mdf
+
+*.mdf
+*.ldf

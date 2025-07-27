@@ -94,12 +94,19 @@ namespace Dal.Services
 
 
 
-        public bool DeleteCarById(int carId)
+        public async Task<bool> DeleteCarByIdAsync(int carId)
         {
-            var car = _context.Cars.FirstOrDefault(c => c.Id == carId);
-            _context.Cars.Remove(car);
-            int result = _context.SaveChanges();
-            return result > 0;
+            using (var context = new dbClass()) // צור מופע חדש של DbContext
+            {
+                var car = await context.Cars.FirstOrDefaultAsync(c => c.Id == carId);
+                if (car != null)
+                {
+                    context.Cars.Remove(car);
+                    int result = await context.SaveChangesAsync();
+                    return result > 0;
+                }
+                return false;
+            }
         }
 
         public bool UpdateCar(Car car)
@@ -112,7 +119,18 @@ namespace Dal.Services
                     Console.WriteLine($"Car with ID {car.Id} not found.");
                     return false;
                 }
+                var existingLocation = _context.Locations
+                    .FirstOrDefault(loc => loc.Id == car.LocationId);
 
+                if (existingLocation != null)
+                {
+                    existingCar.Location = existingLocation;
+                }
+                else
+                {
+                    _context.Locations.Add(car.Location);
+                    existingCar.Location = car.Location;
+                }
                 existingCar.Make = car.Make;
                 existingCar.Model = car.Model;
                 existingCar.Year = car.Year;
@@ -121,7 +139,6 @@ namespace Dal.Services
                 existingCar.NumOfSeats = car.NumOfSeats;
                 existingCar.BaseRate = car.BaseRate;
                 existingCar.LocationId = car.LocationId;
-                existingCar.Location = car.Location;
                 if (car.Image != null && car.Image.Length > 0)
                     existingCar.Image = car.Image;
 

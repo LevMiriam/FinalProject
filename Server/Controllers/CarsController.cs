@@ -8,7 +8,7 @@ namespace Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class CarsController : Controller
     {
         public readonly IBlManager _blManager;
@@ -30,7 +30,7 @@ namespace Server.Controllers
             return Ok(_blManager.BlCars.GetCarById(id));
         }
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpPost("AddCar")]
         public async Task<IActionResult> AddCar([FromForm] CarFormDto carForm)
         {
@@ -38,16 +38,17 @@ namespace Server.Controllers
             return success ? Ok("Registered successfully") : BadRequest("Registration failed");
         }
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpDelete("DeleteCarById")]
-        public IActionResult DeleteCarById(int id)
+        public async Task<IActionResult> DeleteCarById(int id)
         {
-            return _blManager.BlCars.DeleteCarById(id)
-                ? Ok("The car deleted successfully.")
-                : BadRequest("The delete failed.");
+            bool result = await _blManager.BlCars.DeleteCarByIdAsync(id);
+            return result ? Ok("The car deleted successfully.") : BadRequest("The delete failed.");
         }
 
-        [Authorize(Roles = "Admin")]
+
+
+        //[Authorize(Roles = "Admin")]
         [HttpPut("updateCar/{id}")]
         public async Task<IActionResult> UpdateCar(int id, [FromForm] CarFormDto updateCar)
         {
@@ -62,7 +63,6 @@ namespace Server.Controllers
                 bool success = await _blManager.BlCars.UpdateCarDetailsAsync(updateCar);
                 if (success)
                     return Ok("Car details updated successfully.");
-
                 return NotFound("Car not found.");
             }
             catch (Exception ex)

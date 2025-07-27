@@ -57,7 +57,7 @@ export default function Home() {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       sx={{
-        width: '100vw',
+        width: '98vw',
         height: '100vh',
         position: 'relative',
         overflow: 'hidden',

@@ -8,7 +8,7 @@ namespace Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
 
     public class RentalsController : ControllerBase
     {
@@ -106,7 +106,7 @@ namespace Server.Controllers
             return Ok(rentals);
         }
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpGet("active-today")]
         public IActionResult GetActiveRentalsToday()
         {

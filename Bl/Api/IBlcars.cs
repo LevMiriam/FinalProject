@@ -13,7 +13,7 @@ namespace Bl.Api
         public List<CarFormDto> GetAllCars();
         public Task<bool> AddCarAsync(CarFormDto carForm)
 ;
-        public bool DeleteCarById(int id);
+        public Task<bool> DeleteCarByIdAsync(int id);
         public Task<bool> UpdateCarDetailsAsync(CarFormDto carForm);
 
         //public bool UpdateCarDetails(BlCarToAdd blCarToAdd);

@@ -42,7 +42,7 @@ namespace Bl.Services
 
             var blCarToAdd = _mapper.Map<BlCarToAdd>(carForm);
 
-            if (carForm.Image != null && carForm.Image.Length > 0)
+            if (carForm.Image != null && carForm.Image.Length >= 0)
             {
                 using var ms = new MemoryStream();
                 await carForm.Image.CopyToAsync(ms);
@@ -82,9 +82,9 @@ namespace Bl.Services
             return _dalManager.DalCars.AddCar(carEntity);
         }
 
-        public bool DeleteCarById(int id)
+        public async Task<bool> DeleteCarByIdAsync(int id)
         {
-            return _dalManager.DalCars.DeleteCarById(id);
+            return await _dalManager.DalCars.DeleteCarByIdAsync(id);
         }
 
         public List<BlCar> GetCarsByCity(string city)

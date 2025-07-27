@@ -1,25 +1,60 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import About from './Components/About';
 import Cars from './Components/CarsList';
-import Container from '@mui/material/Container';
 import ClientsList from './Components/Clients';
+import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import { useSelector, useDispatch } from 'react-redux';
+import Login from './Components/Login';
+import { loginUser } from './Redux/userSlice';
 
 const theme = createTheme();
 
 function AppContent() {
   const location = useLocation();
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+
   const [showLoading, setShowLoading] = useState(false);
   const [clientAdded, setClientAdded] = useState(false);
 
+  const { token, user, error } = useSelector(state => state.user);
+
+  const handleLogin = (id) => {
+    dispatch(loginUser(id));
+  };
+
+  // שמירת טוקן ב-localStorage כאשר מתחברים
   useEffect(() => {
-    // אם זו טעינה בגלל מעבר עמוד (ולא הוספת לקוח)
+    if (token) {
+      localStorage.setItem('token', token);
+    }
+  }, [token]);
+
+  // אם יש טוקן ב-localStorage, אפשר להשתמש בו ישירות
+  useEffect(() => {
+    const savedToken = localStorage.getItem('token');
+    if (savedToken && !token) {
+      // אפשר לקרוא כאן לאקשן שמשחזר את המשתמש מתוך הטוקן
+      console.log('Using token from localStorage:', savedToken);
+    }
+  }, [token]);
+
+  // ניווט לדף הבית אחרי התחברות
+  useEffect(() => {
+    if (token && location.pathname === '/login') {
+      navigate('/');
+    }
+  }, [token, location.pathname, navigate]);
+
+  // טעינת מסך זמנית
+  useEffect(() => {
     setShowLoading(true);
     const timer = setTimeout(() => setShowLoading(false), 3000);
     return () => clearTimeout(timer);
@@ -32,7 +67,9 @@ function AppContent() {
     }
   }, [clientAdded]);
 
-  return (
+  // תוכן מותאם לסטטוס ההתחברות
+  const isLoggedIn = Boolean(token);
+  const content = isLoggedIn ? (
     <>
       <Header />
       {showLoading ? (
@@ -61,17 +98,24 @@ function AppContent() {
             <Route path="/cars" element={<Cars />} />
             <Route path="/clients" element={<ClientsList setClientAdded={setClientAdded} />} />
             <Route path="/about" element={<About />} />
+          
           </Routes>
         </Container>
       )}
     </>
+  ) : (
+    <Login onLogin={handleLogin} error={error} />
   );
+
+  return content;
 }
 
 export default function App() {
   return (
-    <Router>
-      <AppContent />
-    </Router>
+    <ThemeProvider theme={theme}>
+      <Router>
+        <AppContent />
+      </Router>
+    </ThemeProvider>
   );
 }

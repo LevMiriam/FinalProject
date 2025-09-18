@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate } from
 import Header from './Components/Header';
 import Home from './Components/Home';
 import About from './Components/About';
-import Cars from './Components/CarsList';
+import Cars from './Components/Cars';
 import ClientsList from './Components/Clients';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -12,8 +12,8 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { useSelector, useDispatch } from 'react-redux';
 import Login from './Components/Login';
-import { loginUser } from './Redux/userSlice';
-
+import { loginUser } from './Redux/userSlice.js';
+import Rentals from './Components/Rentals';
 const theme = createTheme();
 
 function AppContent() {
@@ -98,7 +98,9 @@ function AppContent() {
             <Route path="/cars" element={<Cars />} />
             <Route path="/clients" element={<ClientsList setClientAdded={setClientAdded} />} />
             <Route path="/about" element={<About />} />
-          
+             <Route path="/rentals" element={<Rentals />} />
+
+ changes
           </Routes>
         </Container>
       )}

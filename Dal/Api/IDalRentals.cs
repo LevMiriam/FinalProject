@@ -23,9 +23,8 @@ namespace Dal.Api
         public List<Rental> GetActiveRentalsToday();
         public List<Rental> GetRentalsByUserId(int userId);
 
-        public Task<Dictionary<int, bool>> GetCarsAvailabilityAsync(DateOnly start, DateOnly end);
-
-
+        public Task<Dictionary<int, bool>> GetCarsAvailabilityAsync(DateOnly start, DateOnly end, Location location);
+        public List<Location> GetAllLocations();
 
     }
 }

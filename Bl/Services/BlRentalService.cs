@@ -238,14 +238,16 @@ namespace Bl.Services
             public bool Available { get; set; } // סטטוס כללי מה-DB
         }
 
-        public async Task<List<CarWithAvailabilityDto>> GetAllCarsWithAvailabilityAsync(DateOnly? start, DateOnly? end)
+        public async Task<List<CarWithAvailabilityDto>> GetAllCarsWithAvailabilityAsync(DateOnly? start, DateOnly? end,BlLocationToShow location)
         {
             // אם לא הוזן טווח, השתמש בתאריך של היום
             var startDate = start ?? DateOnly.FromDateTime(DateTime.Today);
             var endDate = end ?? DateOnly.FromDateTime(DateTime.Today);
 
             var cars = _dalManager.DalCars.GetAllCars();
-            var availability = await _dalManager.DalRentals.GetCarsAvailabilityAsync(startDate, endDate);
+            var dalLocation = _mapper.Map<Location>(location);
+
+            var availability = await _dalManager.DalRentals.GetCarsAvailabilityAsync(startDate, endDate, dalLocation);
 
             var carDtos = _mapper.Map<List<CarWithAvailabilityDto>>(cars);
 
@@ -255,6 +257,11 @@ namespace Bl.Services
             }
 
             return carDtos;
+        }
+        public List<BlLocationToAdd> GetAllLocations()
+        {
+            var locations = _dalManager.DalRentals.GetAllLocations();
+            return _mapper.Map<List<BlLocationToAdd>>(locations);
         }
 
     }

@@ -238,10 +238,17 @@ namespace Dal.Services
                 .Where(r => r.RentalDate <= today && r.RentalDate >= today)
                 .ToList();
         }
-        public async Task<Dictionary<int, bool>> GetCarsAvailabilityAsync(DateOnly start, DateOnly end)
+        public async Task<Dictionary<int, bool>> GetCarsAvailabilityAsync(DateOnly start, DateOnly end, Location location)
         {
+            Console.WriteLine($"City: {location.City}, Neighborhood: {location.Neighborhood}");
+            var locationExist = await _context.Locations.FirstOrDefaultAsync(l => l.City == location.City && l.Neighborhood == location.Neighborhood);
+            if (locationExist == null)
+            {
+                Console.WriteLine("Location not found in the database.");
+            }
+            //location.Id = locationExist.Id;
             var overlappingRentals = await _context.Rentals
-                .Where(r => r.RentalDate <= end && r.ReturnDate >= start)
+                .Where(r => r.RentalDate <= end && r.ReturnDate >= start && r.Car.Location.Id == location.Id)
                 .Select(r => r.CarId)
                 .ToListAsync();
 
@@ -253,6 +260,10 @@ namespace Dal.Services
                 availability[carId] = !overlappingRentals.Contains(carId);
             }
             return availability;
+        }
+        public List<Location> GetAllLocations()
+        {
+            return _context.Locations.ToList();
         }
     }
 }

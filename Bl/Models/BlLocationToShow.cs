@@ -8,8 +8,8 @@ namespace Bl.Models
 {
     public class BlLocationToShow
     {
-        public string City { get; set; } = null!;
+        public string? City { get; set; } = null!;
 
-        public string Neighborhood { get; set; } = null!;
+        public string? Neighborhood { get; set; } = null!;
     }
 }

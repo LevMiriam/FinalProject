@@ -40,12 +40,13 @@ namespace Server.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpDelete("DeleteCarById")]
-        public IActionResult DeleteCarById(int id)
+        public async Task<IActionResult> DeleteCarById(int id)
         {
-            return _blManager.BlCars.DeleteCarById(id)
-                ? Ok("The car deleted successfully.")
-                : BadRequest("The delete failed.");
+            bool result = await _blManager.BlCars.DeleteCarByIdAsync(id);
+            return result ? Ok("The car deleted successfully.") : BadRequest("The delete failed.");
         }
+
+
 
         [Authorize(Roles = "Admin")]
         [HttpPut("updateCar/{id}")]
@@ -62,7 +63,6 @@ namespace Server.Controllers
                 bool success = await _blManager.BlCars.UpdateCarDetailsAsync(updateCar);
                 if (success)
                     return Ok("Car details updated successfully.");
-
                 return NotFound("Car not found.");
             }
             catch (Exception ex)

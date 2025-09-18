@@ -8,9 +8,9 @@ import { NavLink } from 'react-router-dom';
 import logo from '../assets/cars/logo2.png';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
-import { logout } from '../Redux/userSlice'; // ודא שהנתיב נכון
+import { logout } from '../Redux/userSlice.js'; // ודא שהנתיב נכון
 import { useNavigate } from 'react-router-dom';
-
+import jwtDecode from 'jwt-decode';
 
 
 
@@ -24,6 +24,24 @@ export default function Header() {
     localStorage.removeItem('token'); // מנקה מהזיכרון המקומי
     navigate('/login');               // מפנה למסך התחברות (או כל דף שתבחרי)
   };
+
+   const token = useSelector((state) => state.user.token); // הנחה שהטוקן נמצא ב-state של Redux
+      let userRole = null;
+  
+      if (token) {
+          try {
+              const decodedToken = jwtDecode(token);
+              console.log('Decoded Token:', decodedToken);
+  
+              userRole = decodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
+              console.log('Decoded Token:', decodedToken);
+              console.log('userRole:', userRole);
+  
+          } catch (error) {
+              console.error('Error decoding token:', error);
+          }
+      }
+
   return (
     <AppBar position="fixed" sx={{ backgroundColor: 'black' }}>
       <Toolbar>
@@ -83,7 +101,7 @@ export default function Header() {
         >
           Cars
         </Button>
-        {user?.role === 'Admin' && (
+        {userRole === 'Admin' && (
           <Button
             color="inherit"
             component={NavLink}
@@ -120,6 +138,24 @@ export default function Header() {
           }}
         >
           About
+        </Button>
+        <Button
+          color="inherit"
+          component={NavLink}
+          to="/rentals"
+          sx={{
+            fontFamily: 'Comic Sans MS, cursive, sans-serif',
+            fontWeight: 'bold',
+            letterSpacing: '0.5px',
+            textTransform: 'none',
+            color: 'inherit',
+            '&:hover': {
+              color: 'red',
+              backgroundColor: 'transparent'
+            }
+          }}
+        >
+          Rentals
         </Button>
         {user && (
           <Button

@@ -125,10 +125,22 @@ namespace Server.Controllers
         }
 
         [HttpGet("cars-availability")]
-        public async Task<IActionResult> GetCarsAvailability([FromQuery] DateOnly? start, [FromQuery] DateOnly? end)
+        public async Task<IActionResult> GetCarsAvailability([FromQuery] DateOnly? start, [FromQuery] DateOnly? end, [FromQuery] BlLocationToShow? location)
         {
-            var carsWithAvailability = await _blManager.BlRental.GetAllCarsWithAvailabilityAsync(start, end);
+
+            var carsWithAvailability = await _blManager.BlRental.GetAllCarsWithAvailabilityAsync(start, end, location);
             return Ok(carsWithAvailability);
         }
+        [HttpGet("getAllLocations")]
+        public IActionResult GetAllLocations()
+        {
+            var locations = _blManager.BlRental.GetAllLocations();
+            if (locations == null || locations.Count == 0)
+            {
+                return NotFound("No locations found.");
+            }
+            return Ok(locations);
+        }
+
     }
 }

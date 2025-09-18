@@ -23,13 +23,8 @@ namespace Bl.Api
         public List<BlRentalToAdd> GetActiveRentalsToday();
         public List<BlRentalToAdd> GetUserRentalHistory(int userId);
 
-        public Task<List<CarWithAvailabilityDto>> GetAllCarsWithAvailabilityAsync(DateOnly? start, DateOnly? end);
+        public Task<List<CarWithAvailabilityDto>> GetAllCarsWithAvailabilityAsync(DateOnly? start, DateOnly? end, BlLocationToShow location);
 
-
-
-
-
-
-
+        public List<BlLocationToAdd> GetAllLocations();
     }
 }

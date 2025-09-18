@@ -33,6 +33,7 @@ namespace Bl
             CreateMap<CarFormDto, BlCarToAdd>()
            .ForMember(dest => dest.Image, opt => opt.Ignore()) // נטפל ידנית ב-BL
            .ForMember(dest => dest.Location, opt => opt.MapFrom(src => new BlLocationToAdd { Id = src.Id }));
+            CreateMap<BlLocationToShow, Location>().ReverseMap();
 
             CreateMap<CarFormDto, BlCarToAdd>()
      .ForMember(dest => dest.Image, opt => opt.Ignore())

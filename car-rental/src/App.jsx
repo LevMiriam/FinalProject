@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography';
 import { useSelector, useDispatch } from 'react-redux';
 import Login from './Components/Login';
 import { loginUser } from './Redux/userSlice';
+import Footer from './Components/Footer';
 
 const theme = createTheme();
 
@@ -92,16 +93,17 @@ function AppContent() {
           </Typography>
         </Box>
       ) : (
-        <Container sx={{ mt: 10 }}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/cars" element={<Cars />} />
-            <Route path="/clients" element={<ClientsList setClientAdded={setClientAdded} />} />
-            <Route path="/about" element={<About />} />
-          
- changes
-          </Routes>
-        </Container>
+        <>
+          <Container sx={{ mt: 10, mb: 12 }}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/cars" element={<Cars />} />
+              <Route path="/clients" element={<ClientsList setClientAdded={setClientAdded} />} />
+              <Route path="/about" element={<About />} />
+            </Routes>
+          </Container>
+          <Footer />
+        </>
       )}
     </>
   ) : (

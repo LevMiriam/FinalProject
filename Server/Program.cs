@@ -45,15 +45,34 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("http://localhost:5173")
+        builder => builder.WithOrigins(
+                          "http://localhost:5173",
+                          "https://localhost:5173", 
+                          "https://*.railway.app"
+                          )
+                          .SetIsOriginAllowedToAllowWildcardSubdomains()
                           .AllowAnyMethod()
                           .AllowAnyHeader());
 });
 
 builder.Services.AddSingleton<IBlManager, BlManager>();
 builder.Services.AddSingleton<IDalManager, DalManager>();
+
+// Database configuration - supports both SQL Server and PostgreSQL
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var databaseProvider = builder.Configuration.GetValue<string>("DatabaseProvider") ?? "SqlServer";
+
 builder.Services.AddDbContext<dbClass>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+{
+    if (databaseProvider.Equals("PostgreSQL", StringComparison.OrdinalIgnoreCase))
+    {
+        options.UseNpgsql(connectionString);
+    }
+    else
+    {
+        options.UseSqlServer(connectionString);
+    }
+});
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddSingleton(new JwtService("your-very-strong-secret-key-123456", 60));
 

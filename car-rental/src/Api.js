@@ -1,19 +1,31 @@
+// Base URL configuration for different environments
+const getBaseUrl = () => {
+    if (import.meta.env.PROD) {
+        // Production - Railway deployment
+        return import.meta.env.VITE_API_URL || 'https://your-backend-railway-app.railway.app';
+    } else {
+        // Development - local server
+        return 'https://localhost:7180';
+    }
+};
+
+const BASE_URL = getBaseUrl();
+
 const API_URLS = {
-    cars: 'https://localhost:7180/api/Cars',
-    getCarsByCity: 'https://localhost:7180/api/Cars/GetCarsByCity',
-    SearchCars: 'https://localhost:7180/api/Cars/GetCars',
-    addCar: 'https://localhost:7180/api/Cars/AddCar',
-    deleteCar: (id) => `https://localhost:7180/api/Cars/DeleteCarById?id=${id}`,
-    updateCar: (id) => `https://localhost:7180/api/Cars/updateCar/${id}`, // This is correct
+    cars: `${BASE_URL}/api/Cars`,
+    getCarsByCity: `${BASE_URL}/api/Cars/GetCarsByCity`,
+    SearchCars: `${BASE_URL}/api/Cars/GetCars`,
+    addCar: `${BASE_URL}/api/Cars/AddCar`,
+    deleteCar: (id) => `${BASE_URL}/api/Cars/DeleteCarById?id=${id}`,
+    updateCar: (id) => `${BASE_URL}/api/Cars/updateCar/${id}`,
 
-    order:'https://localhost:7180/api/Rentals/order',
-    unavailableDates:'https://localhost:7180/api/Rentals/unavailable-dates',
+    order: `${BASE_URL}/api/Rentals/order`,
+    unavailableDates: `${BASE_URL}/api/Rentals/unavailable-dates`,
 
-    pay: 'https://localhost:7180/api/Rentals/pay',
-    fetchRentalHistory: (userId) => `https://localhost:7180/api/Rentals/history/${userId}`,
-    fetchActiveRentalsToday: 'https://localhost:7180/api/Rentals/active-today',
-    fetchCarsAvailability: 'https://localhost:7180/api/Rentals/cars-availability',
-
+    pay: `${BASE_URL}/api/Rentals/pay`,
+    fetchRentalHistory: (userId) => `${BASE_URL}/api/Rentals/history/${userId}`,
+    fetchActiveRentalsToday: `${BASE_URL}/api/Rentals/active-today`,
+    fetchCarsAvailability: `${BASE_URL}/api/Rentals/cars-availability`,
 };
 
 export default API_URLS;

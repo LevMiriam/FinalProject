@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  # Database Service
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: CarRentalDB
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: your_password_here
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Backend API Service
+  backend:
+    build: .
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=CarRentalDB;Username=postgres;Password=your_password_here
+      - JWT_SECRET=your-very-strong-secret-key-123456
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # Frontend Service
+  frontend:
+    build: ./car-rental
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

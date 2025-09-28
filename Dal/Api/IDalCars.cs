@@ -11,7 +11,7 @@ namespace Dal.Api
     {
         public List<Car> GetAllCars();
         public bool AddCar(Car car);
-        public bool DeleteCarById(int carId);
+        public Task<bool> DeleteCarByIdAsync(int carId);
         public bool UpdateCar(Car car);
         //public Car GetCarById(int id);
         public Task<Car?> GetCarByIdAsync(int id);

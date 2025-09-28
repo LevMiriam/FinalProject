@@ -26,6 +26,7 @@ namespace Bl.Models
         public BlLocationToAdd Location { get; set; } = null!;
         public byte[]? Image { get; set; }
 
-
+        //public string? ImageBase64 { get; set; }
+        //public IFormFile? Image { get; set; }
     }
 }

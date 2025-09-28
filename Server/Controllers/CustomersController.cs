@@ -11,7 +11,7 @@ namespace Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
 
     public class CustomersController : ControllerBase
     {
@@ -58,7 +58,7 @@ namespace Server.Controllers
 			}
 			return Ok($"Invalid details");
 		}
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult GetAllCustomers()
         {
